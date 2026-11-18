@@ -1,0 +1,6 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+W17-1,Concepts,1.0,,Learner / instructor,"Read explanations, discuss a misconception and interpret the worked example.",Not started
+W17-2,Demonstration,1.0,W17-1,Learner / instructor,"Predict the result, inspect the supplied inputs, and compare with the worked answer.",Not started
+W17-3,Guided lab,2.0,W17-2,Learner / instructor,Complete the ordered lab steps and retain intermediate evidence.,Not started
+W17-4,Independent work,1.5,W17-3,Learner / instructor,"Complete the deliverables, professional transfer and self-check.",Not started
+W17-5,Reflection and feedback,0.5,W17-4,Learner / instructor,"Review the evidence, remediate blockers and record one next step.",Not started

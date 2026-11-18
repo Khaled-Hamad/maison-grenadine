@@ -1,0 +1,9 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+project-01-1,Discover,3.84,,Owner / learner / reviewer,"Discover: interview the owner, collect permitted facts and time the current manual process.",Not started
+project-01-2,Scope,3.84,project-01-1,Owner / learner / reviewer,"Scope: agree one goal, audience, channel, deliverables, exclusions and spending ceiling.",Not started
+project-01-3,Prepare,5.76,project-01-2,Owner / learner / reviewer,"Prepare: approve script, storyboard, references, voice permissions and asset register.",Not started
+project-01-4,Build,13.44,project-01-3,Owner / learner / reviewer,"Build: create several visual candidates and narration takes; record every paid attempt, not only accepted ones.",Not started
+project-01-5,Evaluate,8.64,project-01-4,Owner / learner / reviewer,"Evaluate: assemble an edit, correct captions and audit every claim, visual implication and rights record.",Not started
+project-01-6,Release,3.84,project-01-5,Owner / learner / reviewer,Release: obtain written approval of exact final files and publish on the agreed real channel only if authorised.,Not started
+project-01-7,Observe,4.8,project-01-6,Owner / learner / reviewer,Operate: observe seven days of permitted analytics and feedback; correct or withdraw misleading material.,Not started
+project-01-8,Hand over,3.84,project-01-7,Owner / learner / reviewer,"Hand over: deliver editable files, exports, source/rights records, actual costs and a repeatable checklist.",Not started

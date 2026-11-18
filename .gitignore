@@ -1,0 +1,6 @@
+/private-input/
+/ai-academy/tools/node_modules/
+/ai-academy/.venv/
+/ai-academy/.build/
+/ai-academy/__pycache__/
+/ai-academy/**/__pycache__/

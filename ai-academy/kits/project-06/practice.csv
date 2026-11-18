@@ -1,0 +1,7 @@
+﻿Entity,Required fields / rule
+Project,"id, organisation_id, brief_version, status; access scoped to organisation"
+Asset,"id, project_id, storage_key, source_job_id, rights_status, version"
+Generation job,"id, provider, provider_job_id, state, cost estimate, bounded retries"
+Review,"asset_version, reviewer_id, decision, time; exact version only"
+Event,"provider event ID, processing state; deduplicate callback delivery"
+Release,"approved versions, owner, audience, withdrawal plan"

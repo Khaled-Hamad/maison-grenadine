@@ -1,0 +1,25 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+W01,AI literacy and responsible first use,6,,Learner / instructor,Manual and assisted/supplied drafts; Fact audit and reviewed revision; Risk log and professional adaptation; Exit-question answers,Not started
+W02,How machine learning learns,6,W01,Learner / instructor,Features/labels map; Original and revised rule; Separate split results; Limits and proposed next evidence,Not started
+W03,"Data, uncertainty and prediction errors",6,W02,Learner / instructor,Labelled matrix; Metric calculations with denominators; Two cost scenarios; Bounded recommendation,Not started
+W04,Modern model families,6,W03,Learner / instructor,Model/task concept map; Six justified selections; Training/inference explanation; Two corrected misconceptions,Not started
+W05,Task framing and prompting,6,W04,Learner / instructor,V1-V3 and eight live outputs or offline equivalents; Per-check scores; Revision log; Adapted professional brief,Not started
+W06,Verification and model comparison,6,W05,Learner / instructor,Eight inputs and baseline answers; Blind score table; Two repeats; Qualified selection memo,Not started
+W07,Research and source-grounded answers,6,W06,Learner / instructor,Source inventory; Claim audit; Decision brief and unknowns; Live-source or fallback log,Not started
+W08,"Documents, knowledge and retrieval",6,W07,Learner / instructor,Versioned mini-corpus; Ten-question test set; Retrieval/answer audit; Update and deletion procedure,Not started
+W09,"Spreadsheets, data quality and cleaning",6,W08,Learner / instructor,Raw and cleaned tables; Data dictionary; Transformation log; Reconciled totals and unresolved issue,Not started
+W10,"Analysis, visualisation and decisions",6,W09,Learner / instructor,Checked calculation table; Two labelled charts; Misleading-chart critique; Decision brief,Not started
+W11,Images and visual design,6,W10,Learner / instructor,Creative brief; Three-direction concept board; Selected visual or annotated manual mock-up; Alt text and provenance log,Not started
+W12,"Audio, video and multimodal production",6,W11,Learner / instructor,Script and storyboard; Caption file; Edited clip or labelled offline production plan; Consent/rights and QA records,Not started
+W13,"APIs, connectors and automation",6,W12,Learner / instructor,Data-flow diagram; Sample request/response contract; Error handling table; Approval and permission plan,Not started
+W14,Workflows versus agents,6,W13,Learner / instructor,State-transition map; Six scenario traces; Retry/deduplication rules; Stop and recovery guide,Not started
+W15,Choosing and adapting AI systems,6,W14,Learner / instructor,Requirements and constraints; Option matrix; Architecture diagram; Decision record,Not started
+W16,"Evaluation, security and governance",6,W15,Learner / instructor,Evaluation matrix; Risk register; Evidence-linked failure report; Release recommendation,Not started
+W17,Define the professional problem,6,W16,Learner / instructor,Project charter; Interview and baseline plan; Scope/exclusions; Approval and resource checklist,Not started
+W18,Build the first professional workflow,6,W17,Learner / instructor,Working vertical slice; Versioned instructions and artifacts; Review records; Known limitations/backlog,Not started
+W19,Challenge and improve the workflow,6,W18,Learner / instructor,Development test matrix; Before/after evidence; Prioritised fixes; Regression and limitations report,Not started
+W20,Professional handover,6,W19,Learner / instructor,Operating guide; Peer walkthrough log; Ownership and maintenance map; Studio portfolio,Not started
+W21,Capstone scope and evaluation plan,6,W20,Learner / instructor,Capstone proposal; Predeclared evaluation matrix; Held-out case plan; Release and resource approvals,Not started
+W22,Build and document the capstone,6,W21,Learner / instructor,Candidate artifact/workflow; Reproduction guide; Source/configuration manifest; Cost and recovery evidence,Not started
+W23,"Evaluate, revise and report",6,W22,Learner / instructor,Complete initial evaluation; Baseline comparison; Revision/retest log; Release recommendation and limits,Not started
+W24,"Demonstrate, defend and hand over",6,W23,Learner / instructor,Final artifact and presentation; Evaluation/source/risk portfolio; Operating and maintenance guide; Owner acceptance and accurate release record,Not started

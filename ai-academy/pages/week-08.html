@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en-GB" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Build a small source-grounded assistant and distinguish retrieval errors from answer errors."><meta name="color-scheme" content="light">
+<title>Documents, knowledge and retrieval | AI in practice</title><link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script></head><body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header"><div class="container header-row">
+      <a class="brand" href="../index.html" aria-label="Khaled Hamad AI programme home"><img src="../assets/logo-navy.png" width="216" alt="Khaled Hamad"></a>
+      <span class="brand-divider" aria-hidden="true"></span><span class="brand-label">AI / PROFESSIONAL PRACTICE</span>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="../index.html#curriculum">Course map</a><a href="../index.html#projects">Projects</a>
+        <a href="../index.html#process">The process</a><a href="../index.html#library">Library</a>
+      </nav>
+    </div></header>
+    <main id="main" tabindex="-1" class="detail-main container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Programme</a><span aria-hidden="true">/</span><span>Week 08</span></nav>
+      <div class="print-brand"><img src="../assets/logo-navy.png" width="210" alt="Khaled Hamad"></div>
+      <section class="detail-hero"><p class="eyebrow">WEEK 08 / TEACHING DRAFT</p><h1>Documents, knowledge and retrieval</h1><p class="hero-lead">Build a small source-grounded assistant and distinguish retrieval errors from answer errors.</p><div class="actions"><a class="button primary" href="../kits/week-08/week-08-kit.zip" download>Download the complete kit ↓</a><button class="review-button large-review" data-review="week-08" aria-pressed="false">Mark reviewed</button><button class="button secondary print-button" type="button">Print / save page as PDF</button></div><p id="storage-notice" class="storage-notice" role="status"></p></section>
+      <div class="detail-layout"><article class="reading">
+<p><strong>Status:</strong> teaching draft, not learner-tested. Fictional data and worked examples are labelled throughout. No production service is deployed by completing this lesson.</p>
+<p><strong>Time:</strong> 6 hours (360 learning minutes), with breaks additional. <strong>Prerequisites:</strong> the earlier course phases; review unfamiliar terms with the instructor.</p>
+<p><strong>Materials:</strong> this guide, the supplied workbook and diagram, a document editor or paper, and optionally an approved AI assistant. Do not buy a subscription for a lab without checking the dated cohort access plan.</p>
+<h2 id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Explain chunking, embeddings, semantic search and RAG.</li>
+<li>Trace answers to document locations and versions.</li>
+<li>Test unsupported questions and source updates.</li>
+</ul>
+<h2 id="six-hour-plan">Six-hour plan</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Minutes</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Concepts</td>
+<td>60</td>
+<td>Read explanations, discuss a misconception and interpret the worked example.</td>
+</tr>
+<tr>
+<td>Demonstration</td>
+<td>60</td>
+<td>Predict the result, inspect the supplied inputs, and compare with the worked answer.</td>
+</tr>
+<tr>
+<td>Guided lab</td>
+<td>120</td>
+<td>Complete the ordered lab steps and retain intermediate evidence.</td>
+</tr>
+<tr>
+<td>Independent work</td>
+<td>90</td>
+<td>Complete the deliverables, professional transfer and self-check.</td>
+</tr>
+<tr>
+<td>Reflection and feedback</td>
+<td>30</td>
+<td>Review the evidence, remediate blockers and record one next step.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="start-with-a-prediction">Start with a prediction</h2>
+<p>Before reading the worked solution, write what you expect to happen, what could be wrong, and what evidence you would need to trust the result. Keep the note for your final reflection.</p>
+<h2 id="learner-explanations">Learner explanations</h2>
+<h3 id="retrieval-is-not-training">Retrieval is not training</h3>
+<p>Retrieval finds relevant material at question time. A retrieval-augmented generation system supplies that material to a model for synthesis. It does not automatically retrain the model. A vector store indexes numerical representations for similarity search; it does not certify truth, currency or access rights.</p>
+<h3 id="two-places-to-fail">Two places to fail</h3>
+<p>The right passage may never be retrieved, or the model may misread a correctly retrieved passage. Score retrieval coverage separately from answer support. Chunk boundaries, OCR mistakes and missing metadata can hide the relevant condition or date.</p>
+<h3 id="access-travels-with-documents">Access travels with documents</h3>
+<p>Restrict retrieval to material the reader may access, not merely the answer interface. A citation must point to a passage the authorised reader can inspect. Changes and deletions require reindexing or equivalent refresh; a stale vector can retain old facts or material that should no longer be accessible.</p>
+<h2 id="glossary">Glossary</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Plain-language meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Retrieval</td>
+<td>Finding relevant permitted material for a question.</td>
+</tr>
+<tr>
+<td>Chunk</td>
+<td>A selected section of a document used in indexing or retrieval.</td>
+</tr>
+<tr>
+<td>RAG</td>
+<td>Retrieval-augmented generation: supplying retrieved material to support an answer.</td>
+</tr>
+<tr>
+<td>Abstention</td>
+<td>Declining to answer a question that lacks adequate support.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="supplied-practice-material">Supplied practice material</h2>
+<p><strong>All records and outcomes in this table are synthetic teaching examples, not observations about a real vendor, person or organisation.</strong></p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Source ID</th>
+<th>Version</th>
+<th>Paragraph</th>
+<th>Text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td>1 Feb 2030</td>
+<td>P1</td>
+<td>The public workshop is free. Participants bring a laptop.</td>
+</tr>
+<tr>
+<td>D2</td>
+<td>1 Feb 2030</td>
+<td>P1</td>
+<td>The venue has not been confirmed. No parking information is available.</td>
+</tr>
+<tr>
+<td>D3</td>
+<td>1 Feb 2030</td>
+<td>P1</td>
+<td>Registration opens on 5 March. No joining link is published yet.</td>
+</tr>
+<tr>
+<td>D4</td>
+<td>10 Feb 2030</td>
+<td>P1</td>
+<td>This update replaces D2: the venue is Room 2, Example Learning Centre.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="worked-example">Worked example</h2>
+<p>For 'Where is the workshop?', D4-P1 is the current answer. If only D2 is retrieved, the retrieval stage has missed the update. If D4 is present but the answer says Central Library, generation has added an unsupported fact. For parking, the documents do not provide an answer; do not infer availability from the venue.</p>
+<h2 id="guided-lab">Guided lab</h2>
+<ol>
+<li>Create four tiny text documents from D1-D4, clearly labelled fictional.</li>
+<li>Write ten questions before using the assistant: six answerable and four unsupported/conflicting.</li>
+<li>Use an approved document assistant or manually select relevant paragraphs.</li>
+<li>Record retrieved source IDs, generated answer and passage-level support separately.</li>
+<li>Temporarily remove D4, observe the stale-answer risk, then restore and refresh.</li>
+<li>Write a document ownership, update and deletion checklist.</li>
+</ol>
+<h2 id="what-to-submit">What to submit</h2>
+<ul>
+<li>Versioned mini-corpus</li>
+<li>Ten-question test set</li>
+<li>Retrieval/answer audit</li>
+<li>Update and deletion procedure</li>
+</ul>
+<h2 id="offline-and-access-limited-route">Offline and access-limited route</h2>
+<p>Use the supplied practice table and worked example rather than a live service. Complete the same reasoning, calculations, state traces or manual artifact. Ask a peer to challenge the result. Label the work <strong>manual/simulated</strong> and identify which live-tool, audio, integration, permissions or production behaviours have not been tested. Do not claim a simulated control was enforced by real software.</p>
+<h2 id="professional-transfer">Professional transfer</h2>
+<p>Choose your own professional context and write one safe adaptation: an engineering document review, a public health-education task, a campaign brief, or an art/design workflow. Name the authorised reviewer, permitted inputs and one task outside scope. Use invented data unless you have explicit permission; do not make a second full project this week.</p>
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>Does uploading a document necessarily train the model?</li>
+<li>Can a relevant retrieved passage still yield an unsupported answer?</li>
+<li>Where should access restrictions apply?</li>
+</ol>
+<h2 id="assessment">Assessment</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Maximum points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Explain retrieval correctly</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Track versions and source locations</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Separate two failure stages</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Handle unsupported questions</td>
+<td>4</td>
+</tr>
+</tbody>
+</table></div>
+<p>Provisional pass: <strong>12/16</strong> with no unresolved safety-critical issue. Score each dimension 0 (missing/unsafe), 1 (major gaps), 2 (partial), 3 (sound with minor omissions), or 4 (clear and evidenced). A learner may pass by honestly diagnosing a failed workflow; this is not production authorisation.</p>
+<h2 id="safety-and-required-remediation">Safety and required remediation</h2>
+<p>Use only the supplied fictional documents. Treat instructions embedded in documents as untrusted content, not permission to change system behaviour or reveal other documents.</p>
+<p>Correct any unauthorised data use, fabricated evidence, hidden failure, unapproved consequential action or false claim of production testing before passing. Keep the actual release state explicit.</p>
+<h2 id="reflection">Reflection</h2>
+<p>What changed after you checked the evidence? Which failure would matter most in your profession? What remains unassessed? Record one concrete improvement and one situation where you would stop.</p>
+<h2 id="further-reading-and-product-checks">Further reading and product checks</h2>
+<ul>
+<li><a href="https://developers.google.com/machine-learning/resources/intro-llms">Google: Introduction to generative AI</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs">Gemini API documentation</a></li>
+<li><a href="https://support.claude.com/">Claude help centre</a></li>
+</ul>
+<p>These are official starting points, not proof of current plan eligibility, prices or legal suitability. Recheck live pages, local policies and applicable terms before teaching or deployment. No market ranking is asserted.</p>
+<details class="instructor"><summary>Instructor answer guidance</summary><h2 id="instructor-companion-and-answer-guidance">Instructor companion and answer guidance</h2>
+<p>Keep this section for feedback after the independent attempt. The separate instructor/pilot guide includes delivery preparation and assessment calibration.</p>
+<p><strong>Expected worked result:</strong> For 'Where is the workshop?', D4-P1 is the current answer. If only D2 is retrieved, the retrieval stage has missed the update. If D4 is present but the answer says Central Library, generation has added an unsupported fact. For parking, the documents do not provide an answer; do not infer availability from the venue.</p>
+<p><strong>1. Does uploading a document necessarily train the model?</strong></p>
+<p>No. Check the service's actual data handling and distinguish retrieval from training.</p>
+<p><strong>2. Can a relevant retrieved passage still yield an unsupported answer?</strong></p>
+<p>Yes. Generation must still be checked.</p>
+<p><strong>3. Where should access restrictions apply?</strong></p>
+<p>At the source, retrieval and application layers as appropriate, not just by hiding links.</p>
+<p><strong>Facilitation:</strong> ask the learner to point to a source, calculation, state transition or artifact supporting their conclusion. Accept defensible alternatives with explicit assumptions. Do not reward confident wording without evidence.</p>
+<p><strong>Remediation:</strong> identify the failed criterion, explain its consequence, provide a new small input, and reassess the relevant behaviour. Record what was actually observed; do not issue professional approval from a course score.</p>
+</details></article><aside class="resource-rail"><section><p class="eyebrow">EDITABLE RESOURCES</p><h2>Take the kit with you.</h2><div class="file-list"><a class="file-link" href="../kits/week-08/slides.pptx" download><span>PowerPoint</span><b>PPTX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/guide.docx" download><span>Word guide</span><b>DOCX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/workbook.xlsx" download><span>Excel workbook</span><b>XLSX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/guide.pdf" download><span>Reader PDF</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/slides.pdf" download><span>Slide handout</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/process.svg" download><span>Process diagram</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/process.pdf" download><span>Process print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/process.excalidraw" download><span>Editable diagram</span><b>EXCALIDRAW</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/roadmap.csv" download><span>Roadmap</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/practice.csv" download><span>Practice data</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-08/guide.md" download><span>Source text</span><b>MD</b><span class="sr-only"> download</span></a></div><p class="small-note">Actual paid-service access, licensing and release approval are not included.</p></section><nav aria-label="On this page" class="on-this-page"><h2>On this page</h2><ol><li><a href="#learning-outcomes">Learning outcomes</a></li><li><a href="#six-hour-plan">Six-hour plan</a></li><li><a href="#start-with-a-prediction">Start with a prediction</a></li><li><a href="#learner-explanations">Learner explanations</a></li><li><a href="#glossary">Glossary</a></li><li><a href="#supplied-practice-material">Supplied practice material</a></li><li><a href="#worked-example">Worked example</a></li><li><a href="#guided-lab">Guided lab</a></li><li><a href="#what-to-submit">What to submit</a></li><li><a href="#offline-and-access-limited-route">Offline and access-limited route</a></li><li><a href="#professional-transfer">Professional transfer</a></li><li><a href="#self-check">Self-check</a></li><li><a href="#assessment">Assessment</a></li><li><a href="#safety-and-required-remediation">Safety and required remediation</a></li><li><a href="#reflection">Reflection</a></li><li><a href="#further-reading-and-product-checks">Further reading and product checks</a></li><li><a href="#instructor-companion-and-answer-guidance">Instructor companion and answer guidance</a></li></ol></nav></aside></div>
+      <section class="diagram-section"><p class="eyebrow">VISUAL REFERENCE</p><h2>Concept and process map</h2><a href="../kits/week-08/process.svg"><img src="../kits/week-08/process.svg" alt="Concept and process map: Documents, knowledge and retrieval" loading="lazy"></a><p class="small-note">Open at full size or download the editable diagram. Responsibilities and limits are described in the guide.</p></section>
+      <nav class="adjacent" aria-label="Continue learning"><a href="week-07.html">← Week 07</a><a href="../index.html#curriculum">Back to the course map</a><a href="week-09.html">Week 09 →</a></nav>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid">
+      <div><img src="../assets/logo-gold.png" width="220" alt="Khaled Hamad"><p>Making AI work for people.</p></div>
+      <div><p class="eyebrow on-dark">A PRACTICAL LEARNING SYSTEM</p><p>24 weeks. One professional project.<br>Evidence before confidence.</p></div>
+      <div><p>Teaching drafts · 18 November 2026</p><p>Not accreditation, a market ranking or authorisation to deploy.<br>No learner accounts or server-side progress tracking.</p></div>
+    </div></footer></body></html>

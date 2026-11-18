@@ -1,0 +1,9 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+project-03-1,Discover,3.84,,Owner / learner / reviewer,Discover: choose a narrow information task and review actual question categories with a consenting owner.,Not started
+project-03-2,Scope,3.84,project-03-1,Owner / learner / reviewer,"Scope: declare allowed/prohibited topics, languages, human handoff and recording/retention policy.",Not started
+project-03-3,Prepare,5.76,project-03-2,Owner / learner / reviewer,Prepare: version the FAQ and select a properly licensed voice with consent evidence.,Not started
+project-03-4,Build,13.44,project-03-3,Owner / learner / reviewer,Build: configure the web-based concierge and knowledge source; add a secure integration only if needed.,Not started
+project-03-5,Evaluate,8.64,project-03-4,Owner / learner / reviewer,"Evaluate: run all 20 scenarios; measure task outcome and observed response time, and inspect answer support.",Not started
+project-03-6,Release,3.84,project-03-5,Owner / learner / reviewer,"Release: replace placeholders, obtain approval and launch to a limited audience with disclosure and stop/budget controls.",Not started
+project-03-7,Observe,4.8,project-03-6,Owner / learner / reviewer,Operate: inspect only consented necessary logs and feedback for seven days; correct failed FAQ paths.,Not started
+project-03-8,Hand over,3.84,project-03-7,Owner / learner / reviewer,"Hand over: document source updates, billing, human contacts, incident response and shutdown.",Not started

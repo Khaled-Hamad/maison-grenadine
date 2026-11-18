@@ -1,0 +1,5 @@
+﻿Case,Observed failure,Proposed fix,Regression check
+Missing venue,Invented a location,Explicit unknown-field handling,Known venue still preserved
+Changed source,Used old date,Version selection and source refresh,Other unchanged facts remain correct
+Denied approval,Action still queued,Enforced cancellation,Approved action executes once
+Long source,Skipped a limitation,Targeted extraction and review,Short sources remain accurate

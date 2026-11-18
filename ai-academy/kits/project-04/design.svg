@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="860" viewBox="0 0 1440 860" role="img" aria-labelledby="t d">
+<title id="t">Professional knowledge portal: low-fidelity design</title>
+<desc id="d">Three-stage screen or production design. It is an editable reference, not a functioning application.</desc>
+<rect width="1440" height="860" fill="#F3F5F8"/>
+<text x="60" y="70" font-size="32" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Professional knowledge portal</text>
+<text x="60" y="110" font-size="17" fill="#3D4A63" font-family="Segoe UI,Arial,sans-serif">LOW-FIDELITY DESIGN / NOT A LIVE APPLICATION</text>
+<rect x="60" y="160" width="410" height="600" rx="8" fill="white" stroke="#DDE2EA"/>
+<rect x="60" y="160" width="410" height="65" fill="#182234"/>
+<text x="84" y="203" font-size="22" fill="white" font-family="Segoe UI,Arial,sans-serif">Ask</text>
+<rect x="84" y="263" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="102" y="306" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Scope and limitations</text>
+<rect x="84" y="367" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="102" y="410" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Question field</text>
+<rect x="84" y="471" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="102" y="514" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Permitted source list</text>
+<rect x="84" y="575" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="102" y="618" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Human contact</text>
+<rect x="515" y="160" width="410" height="600" rx="8" fill="white" stroke="#DDE2EA"/>
+<rect x="515" y="160" width="410" height="65" fill="#182234"/>
+<text x="539" y="203" font-size="22" fill="white" font-family="Segoe UI,Arial,sans-serif">Answer</text>
+<rect x="539" y="263" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="557" y="306" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Qualified response</text>
+<rect x="539" y="367" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="557" y="410" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Passage citations</text>
+<rect x="539" y="471" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="557" y="514" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Source version</text>
+<rect x="539" y="575" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="557" y="618" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Report issue</text>
+<rect x="970" y="160" width="410" height="600" rx="8" fill="white" stroke="#DDE2EA"/>
+<rect x="970" y="160" width="410" height="65" fill="#182234"/>
+<text x="994" y="203" font-size="22" fill="white" font-family="Segoe UI,Arial,sans-serif">Sources</text>
+<rect x="994" y="263" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="1012" y="306" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Owner + effective date</text>
+<rect x="994" y="367" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="1012" y="410" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Superseded marker</text>
+<rect x="994" y="471" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="1012" y="514" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Update history</text>
+<rect x="994" y="575" width="362" height="78" rx="3" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="1012" y="618" font-size="18" fill="#182234" font-family="Segoe UI,Arial,sans-serif">Authorised removal</text>
+</svg>

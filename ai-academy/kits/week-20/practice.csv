@@ -1,0 +1,7 @@
+﻿Runbook section,Must answer,Example
+Start,What input is allowed?,Approved fictional/public brief only
+Review,Who checks facts?,Named organiser
+Stop,What blocks progress?,Unconfirmed venue or missing rights
+Failure,What if the provider is unavailable?,Manual draft; record interruption
+Maintain,Who updates sources?,Owner reviews each event
+Shutdown,Who can disable it?,Service owner and documented backup

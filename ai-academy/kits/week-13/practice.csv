@@ -1,0 +1,7 @@
+﻿Field / status,Example,Required behaviour
+request_id,R-001,Retain for traceability and deduplication
+mode,draft_only,Do not send externally
+recipient,not supplied,Request confirmation before any send
+401,Unauthorised,Check approved credentials; do not invent access
+429,Rate limited,Respect retry guidance and bounded limits
+500,Provider failure,Surface error and use controlled recovery

@@ -1,0 +1,13 @@
+﻿Case,Input / condition,Expected outcome,Actual evidence,Status
+Create,Valid request submitted,Persists with correct owner and status,,Unrun
+Validation,Required field missing,Visible validation; no corrupt record,,Unrun
+Read isolation,A requests B's restricted ID,Denied by backend,,Unrun
+Write isolation,A attempts B's update,Denied by backend,,Unrun
+Role,Requester attempts reviewer decision,Denied,,Unrun
+Session,Expired or signed-out request,No unauthorised read/write,,Unrun
+Secrets,Inspect client bundle and repository,No service credentials exposed,,Unrun
+Approval,Approved content changes,Version requires new review,,Unrun
+Error,Backend unavailable,Truthful error; no false save success,,Unrun
+Keyboard,Complete main flow without mouse,All controls reachable and labelled,,Unrun
+Recovery,Rollback and restore in staging,Known version/data recovered,,Unrun
+Budget,Usage threshold reached,Alert and approved stop mechanism works,,Unrun

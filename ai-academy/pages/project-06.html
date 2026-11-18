@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en-GB" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Combine brief intake, media production, client review and approved delivery in one supervised flagship."><meta name="color-scheme" content="light">
+<title>Integrated creator delivery portal | AI in practice</title><link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script></head><body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header"><div class="container header-row">
+      <a class="brand" href="../index.html" aria-label="Khaled Hamad AI programme home"><img src="../assets/logo-navy.png" width="216" alt="Khaled Hamad"></a>
+      <span class="brand-divider" aria-hidden="true"></span><span class="brand-label">AI / PROFESSIONAL PRACTICE</span>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="../index.html#curriculum">Course map</a><a href="../index.html#projects">Projects</a>
+        <a href="../index.html#process">The process</a><a href="../index.html#library">Library</a>
+      </nav>
+    </div></header>
+    <main id="main" tabindex="-1" class="detail-main container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Programme</a><span aria-hidden="true">/</span><span>Project kit</span></nav>
+      <div class="print-brand"><img src="../assets/logo-navy.png" width="210" alt="Khaled Hamad"></div>
+      <section class="detail-hero"><p class="eyebrow">PROJECT KIT / TEACHING DRAFT</p><h1>Integrated creator delivery portal</h1><p class="hero-lead">Combine brief intake, media production, client review and approved delivery in one supervised flagship.</p><div class="actions"><a class="button primary" href="../kits/project-06/project-06-kit.zip" download>Download the complete kit ↓</a><button class="button secondary print-button" type="button">Print / save page as PDF</button></div><p id="storage-notice" class="storage-notice" role="status"></p></section>
+      <div class="detail-layout"><article class="reading">
+<p><strong>Status:</strong> instructional production plan and editable templates. This package does not claim that a live application, paid media generation or client deployment has been completed.</p>
+<p><strong>Audience:</strong> Advanced learners or a small supervised team with application-development support.</p>
+<p><strong>Stack:</strong> Lovable, GitHub, Claude Code, Higgsfield, ElevenLabs.</p>
+<p><strong>Schedule:</strong> Allow the separate 10-week technical extension (60-80 hours), or equivalent skills, plus 4-6 further weeks at 6-8 hours/week (24-48 hours). The workbook uses a provisional 36-hour final-build estimate, not the total learning time. This is optional and not compressed into the beginner core.</p>
+<h2 id="outcomes">Outcomes</h2>
+<ul>
+<li>Define one organisation's brief-to-approved-asset journey.</li>
+<li>Prove manual production before adding API integrations.</li>
+<li>Handle asynchronous jobs, permissions and costs honestly.</li>
+<li>Deliver a limited real pilot with client acceptance and operating ownership.</li>
+</ul>
+<h2 id="design-rationale">Design rationale</h2>
+<h3 id="integrate-a-proven-process">Integrate a proven process</h3>
+<p>Start with one client organisation and one campaign. The client submits a brief, reviews assets, requests a revision and approves a final package. Exclude billing, public sign-up, a marketplace and autonomous publishing. Complete manual media production first so integration is solving a known process.</p>
+<h3 id="asynchronous-does-not-mean-complete">Asynchronous does not mean complete</h3>
+<p>A media-generation request may return a job identifier before any asset exists. Store truthful queued/running/succeeded/failed/cancelled states. Validate provider callbacks using its current documented mechanism, deduplicate deliveries, and use bounded status polling where needed. Never display success merely because the request was accepted.</p>
+<h3 id="trust-boundaries">Trust boundaries</h3>
+<p>Keep provider keys server-side, authorise project/asset access and restrict uploads and URLs. Arbitrary server-side fetching of user-supplied URLs can reach internal services; use approved storage and appropriate network/content restrictions. Consumer app credits do not imply API access, identical model availability or included runtime cost.</p>
+<h2 id="supplied-fictional-starting-brief-or-data-contract">Supplied fictional starting brief or data contract</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Entity</th>
+<th>Required fields / rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project</td>
+<td>id, organisation_id, brief_version, status; access scoped to organisation</td>
+</tr>
+<tr>
+<td>Asset</td>
+<td>id, project_id, storage_key, source_job_id, rights_status, version</td>
+</tr>
+<tr>
+<td>Generation job</td>
+<td>id, provider, provider_job_id, state, cost estimate, bounded retries</td>
+</tr>
+<tr>
+<td>Review</td>
+<td>asset_version, reviewer_id, decision, time; exact version only</td>
+</tr>
+<tr>
+<td>Event</td>
+<td>provider event ID, processing state; deduplicate callback delivery</td>
+</tr>
+<tr>
+<td>Release</td>
+<td>approved versions, owner, audience, withdrawal plan</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="worked-vertical-slice">Worked vertical slice</h2>
+<p>A client submits brief V1. A manual production operator uploads a cleared draft asset; the client requests a revision and approves V2 only. The first release can use this manual loop. In the later API route, a queued Higgsfield job must not be shown as delivered, and a duplicate webhook must not create another paid generation or overwrite approval history.</p>
+<h2 id="from-scratch-to-production">From scratch to production</h2>
+<h3 id="1-discover">1. Discover</h3>
+<p>interview the consenting client and map brief, production, revision and delivery responsibilities.</p>
+<h3 id="2-scope">2. Scope</h3>
+<p>agree one organisation, two roles, one campaign, asset/version model, exclusions and spending ceiling.</p>
+<h3 id="3-prepare">3. Prepare</h3>
+<p>sketch screens, define permissions, source/rights registers, job states and acceptance tests.</p>
+<h3 id="4-build">4. Build</h3>
+<p>create the Lovable portal and manual asset review loop; use a controlled GitHub/Claude Code development handoff.</p>
+<h3 id="5-integrate-and-evaluate">5. Integrate and evaluate</h3>
+<p>add one authorised provider API at a time behind server endpoints, then test jobs, callbacks, access and failures.</p>
+<h3 id="6-release">6. Release</h3>
+<p>rehearse rollback/restore, resolve blockers and invite one approved real pilot client.</p>
+<h3 id="7-operate">7. Operate</h3>
+<p>complete a real review/revision cycle and seven days of appropriate monitoring and spend review.</p>
+<h3 id="8-hand-over">8. Hand over</h3>
+<p>deliver code, configuration instructions, creative source files, costs, support ownership and shutdown plan.</p>
+<h2 id="architecture-and-responsibility-boundaries">Architecture and responsibility boundaries</h2>
+<p>The supplied architecture.svg, architecture.pdf and editable architecture.excalidraw describe a <strong>reference design, not an implemented service</strong>.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Boundary</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Client portal</td>
+<td>Client</td>
+<td>No provider secrets; project/asset UI</td>
+</tr>
+<tr>
+<td>Application service</td>
+<td>Server</td>
+<td>Authenticate, authorise, validate and enforce budget</td>
+</tr>
+<tr>
+<td>Database + storage</td>
+<td>Server</td>
+<td>Scoped records, asset versions and signed access</td>
+</tr>
+<tr>
+<td>Media providers</td>
+<td>Vendor</td>
+<td>Higgsfield / ElevenLabs with separately approved API access</td>
+</tr>
+<tr>
+<td>Job processor</td>
+<td>Server</td>
+<td>Verified callbacks, deduplication, bounded polling and truthful states</td>
+</tr>
+<tr>
+<td>Client + operator</td>
+<td>Human</td>
+<td>Rights review, exact-version approval and stop decisions</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="screen-or-production-design">Screen or production design</h2>
+<h3 id="brief-intake">Brief intake</h3>
+<ul>
+<li>Goal and audience</li>
+<li>Approved facts</li>
+<li>Rights + references</li>
+<li>Budget approval</li>
+</ul>
+<h3 id="project-workspace">Project workspace</h3>
+<ul>
+<li>Queued / running / failed</li>
+<li>Asset versions</li>
+<li>Costs and limits</li>
+<li>Operator handoff</li>
+</ul>
+<h3 id="client-approval">Client approval</h3>
+<ul>
+<li>Exact version preview</li>
+<li>Request revision</li>
+<li>Approve delivery</li>
+<li>Download approved package</li>
+</ul>
+<h2 id="acceptance-and-failure-tests">Acceptance and failure tests</h2>
+<p>Run every applicable test and retain evidence. A blank or unrun test is not a pass. Hold back at least four relevant cases during initial development; using one to fix the system makes it development data. Use new cases for later independent claims.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Input or condition</th>
+<th>Expected outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Journey</td>
+<td>Brief through V2 client approval</td>
+<td>Complete traceable single-client flow</td>
+</tr>
+<tr>
+<td>Access</td>
+<td>Different organisation requests project</td>
+<td>Backend denies access</td>
+</tr>
+<tr>
+<td>Role</td>
+<td>Client calls operator-only action</td>
+<td>Denied</td>
+</tr>
+<tr>
+<td>Secret</td>
+<td>Inspect browser and repository</td>
+<td>No provider credentials exposed</td>
+</tr>
+<tr>
+<td>Job accepted</td>
+<td>Provider returns ID only</td>
+<td>Queued/running, not delivered</td>
+</tr>
+<tr>
+<td>Job failure</td>
+<td>Provider terminal error</td>
+<td>Failed state visible; no fake asset</td>
+</tr>
+<tr>
+<td>Callback</td>
+<td>Invalid callback authentication</td>
+<td>Rejected according to provider mechanism</td>
+</tr>
+<tr>
+<td>Duplicate</td>
+<td>Same event delivered twice</td>
+<td>No duplicate processing or paid job</td>
+</tr>
+<tr>
+<td>URL</td>
+<td>Unapproved arbitrary URL submitted</td>
+<td>Rejected by input/network restrictions</td>
+</tr>
+<tr>
+<td>Budget</td>
+<td>Generation ceiling reached</td>
+<td>No unapproved further spend</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>Asset changes after client approval</td>
+<td>New version requires fresh review</td>
+</tr>
+<tr>
+<td>Rights</td>
+<td>Asset use not cleared</td>
+<td>Blocked from release</td>
+</tr>
+<tr>
+<td>Cancel</td>
+<td>Operator cancels pending job</td>
+<td>Truthful state and documented provider billing limits</td>
+</tr>
+<tr>
+<td>Recovery</td>
+<td>Rollback/restore in staging</td>
+<td>Known working state recovered</td>
+</tr>
+<tr>
+<td>Deletion</td>
+<td>Approved deletion request</td>
+<td>Access revoked and retention process followed</td>
+</tr>
+<tr>
+<td>Usability</td>
+<td>Keyboard-only client review</td>
+<td>Essential flow accessible</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="release-gates">Release gates</h2>
+<ul>
+<li>Owner and intended real audience identified; exact release version approved.</li>
+<li>Required data, source, voice, likeness, reference and commercial-use permissions recorded.</li>
+<li>All applicable acceptance tests run with evidence; critical issues resolved.</li>
+<li>Backend access, secrets and action approvals tested where software is involved.</li>
+<li>Budget, alerts and a practical stop mechanism agreed; provider billing limits documented.</li>
+<li>Rollback, withdrawal, source correction and manual fallback rehearsed as relevant.</li>
+<li>Seven days of appropriate post-release observation and one feedback/review cycle recorded.</li>
+<li>A named owner accepts maintenance, costs, support and shutdown responsibility.</li>
+</ul>
+<h2 id="deliverables">Deliverables</h2>
+<ul>
+<li>Product brief, data model and permission matrix</li>
+<li>Three-screen portal design</li>
+<li>Manual end-to-end production proof</li>
+<li>Working restricted portal and reviewed repository</li>
+<li>Optional real provider integrations with truthful job states</li>
+<li>Evaluation, client acceptance, rights records and operations runbook</li>
+</ul>
+<h2 id="budget-and-procurement">Budget and procurement</h2>
+<p>Use the Budget sheet to record current plan access, separate API/runtime charges, hosting/storage, media attempts, voice use and maintenance. All worksheet costs begin unpriced; none are vendor quotations. Include failed paid attempts in actual spend. Publish a dated cohort minimum-cost route before purchases.</p>
+<h2 id="handover-runbook">Handover runbook</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Required evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Start</td>
+<td>Permitted users, inputs, current version and operating steps</td>
+</tr>
+<tr>
+<td>Review</td>
+<td>Who checks facts/rights and approves exact actions or assets</td>
+</tr>
+<tr>
+<td>Failure</td>
+<td>Visible errors, bounded retry rules and manual completion route</td>
+</tr>
+<tr>
+<td>Correction</td>
+<td>How to report, pause, fix and communicate an error</td>
+</tr>
+<tr>
+<td>Maintain</td>
+<td>Sources, dependencies, service changes, renewal dates and owner</td>
+</tr>
+<tr>
+<td>Stop</td>
+<td>How to disable service or withdraw publication; retention/deletion duties</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="access-limited-educational-route">Access-limited educational route</h2>
+<p>Complete the manual workflow, diagrams, paper prototype, sample outputs and test expectations. Mark live API, media, permission and deployment behaviours <strong>not assessed</strong>. This can meet academic reasoning outcomes but cannot earn a production-release designation.</p>
+<h2 id="assessment">Assessment</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Maximum points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Complete narrow client journey</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Permissions, secrets and job integrity</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Creative rights and exact-version review</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Measured, recoverable operation</td>
+<td>4</td>
+</tr>
+</tbody>
+</table></div>
+<p>For academic feedback use 0-4 per dimension: missing/unsafe, major gaps, partial, sound, or clear/evidenced. Provisional pass 12/16 requires remediation of every critical issue. Actual release requires the owner's separate approval and all applicable gates, regardless of score.</p>
+<h2 id="boundaries">Boundaries</h2>
+<p>This is the advanced flagship, not a beginner requirement. The kit does not include purchased API access or claim a live portal was deployed. Do not claim manual vendor-interface work is automated.</p>
+<h2 id="further-reading-and-product-checks">Further reading and product checks</h2>
+<ul>
+<li><a href="https://docs.lovable.dev/">Lovable documentation</a></li>
+<li><a href="https://docs.lovable.dev/integrations/github">Lovable and GitHub</a></li>
+<li><a href="https://code.claude.com/docs/en/overview">Claude Code documentation</a></li>
+<li><a href="https://docs.higgsfield.ai/">Higgsfield API documentation</a></li>
+<li><a href="https://elevenlabs.io/docs/overview/intro">ElevenLabs documentation</a></li>
+<li><a href="https://genai.owasp.org/">OWASP: generative AI security</a></li>
+</ul>
+<p>These are official starting points, not proof of current plan eligibility, prices or legal suitability. Recheck live pages, local policies and applicable terms before teaching or deployment. No market ranking is asserted.</p>
+<details class="instructor"><summary>Instructor answer guidance</summary><h2 id="instructor-companion-and-answer-guidance">Instructor companion and answer guidance</h2>
+<p>Keep this section for feedback after the independent attempt. The separate instructor/pilot guide includes delivery preparation and assessment calibration.</p>
+<p><strong>Expected worked result:</strong> A client submits brief V1. A manual production operator uploads a cleared draft asset; the client requests a revision and approves V2 only. The first release can use this manual loop. In the later API route, a queued Higgsfield job must not be shown as delivered, and a duplicate webhook must not create another paid generation or overwrite approval history.</p>
+<p><strong>1. Does request accepted mean asset delivered?</strong></p>
+<p>No. Track the actual provider job outcome.</p>
+<p><strong>2. Must every learner build this flagship?</strong></p>
+<p>No. It is an optional advanced/team route.</p>
+<p><strong>3. Do the listed 36 hours include learning to build software?</strong></p>
+<p>No. The workbook models an additional final build after the separate technical extension or equivalent skills.</p>
+<p><strong>Facilitation:</strong> ask the learner to point to a source, calculation, state transition or artifact supporting their conclusion. Accept defensible alternatives with explicit assumptions. Do not reward confident wording without evidence.</p>
+<p><strong>Remediation:</strong> identify the failed criterion, explain its consequence, provide a new small input, and reassess the relevant behaviour. Record what was actually observed; do not issue professional approval from a course score.</p>
+</details></article><aside class="resource-rail"><section><p class="eyebrow">EDITABLE RESOURCES</p><h2>Take the kit with you.</h2><div class="file-list"><a class="file-link" href="../kits/project-06/slides.pptx" download><span>PowerPoint</span><b>PPTX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/guide.docx" download><span>Word guide</span><b>DOCX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/workbook.xlsx" download><span>Excel workbook</span><b>XLSX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/guide.pdf" download><span>Reader PDF</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/slides.pdf" download><span>Slide handout</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/process.svg" download><span>Process diagram</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/process.pdf" download><span>Process print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/process.excalidraw" download><span>Editable diagram</span><b>EXCALIDRAW</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/roadmap.csv" download><span>Roadmap</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/practice.csv" download><span>Practice data</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/guide.md" download><span>Source text</span><b>MD</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/architecture.svg" download><span>Reference architecture</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/architecture.pdf" download><span>Architecture print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/architecture.excalidraw" download><span>Editable architecture</span><b>EXCALIDRAW</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/design.svg" download><span>Screen / production design</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/design.pdf" download><span>Design print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-06/acceptance-tests.csv" download><span>Acceptance tests</span><b>CSV</b><span class="sr-only"> download</span></a></div><p class="small-note">Actual paid-service access, licensing and release approval are not included.</p></section><nav aria-label="On this page" class="on-this-page"><h2>On this page</h2><ol><li><a href="#outcomes">Outcomes</a></li><li><a href="#design-rationale">Design rationale</a></li><li><a href="#supplied-fictional-starting-brief-or-data-contract">Supplied fictional starting brief or data contract</a></li><li><a href="#worked-vertical-slice">Worked vertical slice</a></li><li><a href="#from-scratch-to-production">From scratch to production</a></li><li><a href="#architecture-and-responsibility-boundaries">Architecture and responsibility boundaries</a></li><li><a href="#screen-or-production-design">Screen or production design</a></li><li><a href="#acceptance-and-failure-tests">Acceptance and failure tests</a></li><li><a href="#release-gates">Release gates</a></li><li><a href="#deliverables">Deliverables</a></li><li><a href="#budget-and-procurement">Budget and procurement</a></li><li><a href="#handover-runbook">Handover runbook</a></li><li><a href="#access-limited-educational-route">Access-limited educational route</a></li><li><a href="#assessment">Assessment</a></li><li><a href="#boundaries">Boundaries</a></li><li><a href="#further-reading-and-product-checks">Further reading and product checks</a></li><li><a href="#instructor-companion-and-answer-guidance">Instructor companion and answer guidance</a></li></ol></nav></aside></div>
+      <section class="diagram-section"><p class="eyebrow">VISUAL REFERENCE</p><h2>Reference architecture — not a deployed service</h2><a href="../kits/project-06/architecture.svg"><img src="../kits/project-06/architecture.svg" alt="Reference architecture — not a deployed service: Integrated creator delivery portal" loading="lazy"></a><p class="small-note">Open at full size or download the editable diagram. Responsibilities and limits are described in the guide.</p></section>
+      <nav class="adjacent" aria-label="Continue learning"><a href="../index.html#library">← Back to the resource library</a></nav>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid">
+      <div><img src="../assets/logo-gold.png" width="220" alt="Khaled Hamad"><p>Making AI work for people.</p></div>
+      <div><p class="eyebrow on-dark">A PRACTICAL LEARNING SYSTEM</p><p>24 weeks. One professional project.<br>Evidence before confidence.</p></div>
+      <div><p>Teaching drafts · 18 November 2026</p><p>Not accreditation, a market ranking or authorisation to deploy.<br>No learner accounts or server-side progress tracking.</p></div>
+    </div></footer></body></html>

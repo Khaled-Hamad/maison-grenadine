@@ -1,0 +1,9 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+project-02-1,Discover,3.84,,Owner / learner / reviewer,Discover: interview two or three users and map the current approval process.,Not started
+project-02-2,Scope,3.84,project-02-1,Owner / learner / reviewer,"Scope: choose one journey and define record ownership, role permissions and acceptance criteria.",Not started
+project-02-3,Prepare,5.76,project-02-2,Owner / learner / reviewer,"Prepare: sketch three screens, create synthetic data, approve accounts and define server-side validation.",Not started
+project-02-4,Build,13.44,project-02-3,Owner / learner / reviewer,Build: create Lovable prototype and backend; connect GitHub; use Claude Code for bounded reviewed changes if qualified.,Not started
+project-02-5,Evaluate,8.64,project-02-4,Owner / learner / reviewer,"Evaluate: test the main flow, invalid inputs, access isolation, approval transitions and service errors in staging.",Not started
+project-02-6,Release,3.84,project-02-5,Owner / learner / reviewer,"Release: resolve critical findings, rehearse rollback and backup restoration, obtain owner approval and deploy to a named small group.",Not started
+project-02-7,Observe,4.8,project-02-6,Owner / learner / reviewer,"Operate: monitor privacy-conscious errors, usage and costs for seven days; address one feedback cycle.",Not started
+project-02-8,Hand over,3.84,project-02-7,Owner / learner / reviewer,"Hand over: transfer repository/service ownership safely, document run instructions, recovery and update responsibilities.",Not started

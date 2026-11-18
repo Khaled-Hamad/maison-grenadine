@@ -1,0 +1,433 @@
+﻿Kit,Title,File,Bytes,SHA256
+week-01,AI literacy and responsible first use,kits/week-01/guide.docx,20996,030037a5c7440fad9116d891776e3ad31397831647f59261357dbb7c605a8912
+week-01,AI literacy and responsible first use,kits/week-01/guide.md,15831,396f5300d08a6431397a4e5cf6934063583c4e3d53b8c339591bdf41f456298f
+week-01,AI literacy and responsible first use,kits/week-01/guide.pdf,192256,cb1afff7da5298545c6821b52749b0ac768b475ad248c19016662446d582f732
+week-01,AI literacy and responsible first use,kits/week-01/practice.csv,176,ca292bc6e04d92a7a1a689bef6a0d0e4029f9790c7dda2bc58df5f205c609f67
+week-01,AI literacy and responsible first use,kits/week-01/process.excalidraw,15992,84c2522453fb275d5723560d070f606fda544d6a1a54806b8a9d2482a320e89b
+week-01,AI literacy and responsible first use,kits/week-01/process.pdf,41238,1c587439fc896ec8e09ef33d3a5d5d1b6b865dc2d2e419a348252f939f8a1729
+week-01,AI literacy and responsible first use,kits/week-01/process.png,37580,66319994fe1e3f59e07162b1ee6421301587d796fd1550f4571c9517f8d2ed97
+week-01,AI literacy and responsible first use,kits/week-01/process.svg,4071,0db4256fa7b2fff67a17751befe0dc2ac55b06c4992fba5b206d8b58309760bd
+week-01,AI literacy and responsible first use,kits/week-01/roadmap.csv,754,750f0c6daa3762029ab3dca0fe5d143c6967a87592865f196dff7ee52b00d4c4
+week-01,AI literacy and responsible first use,kits/week-01/slides.pdf,205482,8e9c2b6584075e9edbfda5ba50b968dd8338b5fbe3518144099253f3f64a83af
+week-01,AI literacy and responsible first use,kits/week-01/slides.pptx,207496,9403bf3e510d9a0abf801cdf5eb7681ae04800fd8857c286e92f0d3031aba711
+week-01,AI literacy and responsible first use,kits/week-01/workbook.xlsx,18456,afc77fb16d3de3f2b0bcc89db83850a36d639823e8673e1d740e57f84703c487
+week-02,How machine learning learns,kits/week-02/guide.docx,16883,7e849a5bf15e58c4b0eaf680b606b2ef600a99b218b7c081d01138a44cb824f5
+week-02,How machine learning learns,kits/week-02/guide.md,8554,024c5d2b59b3937a8ece8d2c098e72632914e81bebf65d1d2c4944fab19a05fc
+week-02,How machine learning learns,kits/week-02/guide.pdf,163214,cf50de45726d6c4a1ed52dda122d5646dfbf03b0f444350928274d3f06deb44d
+week-02,How machine learning learns,kits/week-02/practice.csv,337,0c9fb57a724b6425e2ad80c9cf8bee30abb57c15b32943e86a6e435d5eff7010
+week-02,How machine learning learns,kits/week-02/process.excalidraw,15996,e3c1a6ca7b827e7e9914dc22ded2c83ee1aa0df0e06444ce1b172091e5028b18
+week-02,How machine learning learns,kits/week-02/process.pdf,41243,af0070bf3906f8cf1ecb36defe948cb9bf86f4816df380e003f70dd03de3177e
+week-02,How machine learning learns,kits/week-02/process.png,36115,2c8d6b10430a1a5017d0d078e481279e1d489ffec568c92d2075fee91420c072
+week-02,How machine learning learns,kits/week-02/process.svg,4075,f298057552d3d5da77695b1e2942dbd0561aa6a6d142436f77d7f3affa007311
+week-02,How machine learning learns,kits/week-02/roadmap.csv,754,f2eb75f604d1ca6dd03dafa50e379dc683657a92646d055af7af464118076b57
+week-02,How machine learning learns,kits/week-02/slides.pdf,207961,89a6f536e0744c9245178a0edd2d08c621996af9b03b7fdabc3fd6c104c1235f
+week-02,How machine learning learns,kits/week-02/slides.pptx,213635,b432369c3aec7e0580bc8d107a38d3251b63464b26f0b951036dcd8dcc29295c
+week-02,How machine learning learns,kits/week-02/workbook.xlsx,20493,d4abc0f2b407bf25a7fd24b1c80c64fd86ec2b4e751a5ca5c344ba0093a1b152
+week-03,"Data, uncertainty and prediction errors",kits/week-03/guide.docx,16329,2401beff033283b3c115e8600ae7ac6d289035de01c750a0cab334571e30e775
+week-03,"Data, uncertainty and prediction errors",kits/week-03/guide.md,8306,2ace109250478040b4313ae1d35a2f205445e1ab753054127032d6e1ebe392df
+week-03,"Data, uncertainty and prediction errors",kits/week-03/guide.pdf,165305,73895ccb8765e3e6b59c2582136c802d9ba33b13b75bb7bb122a523429221cbd
+week-03,"Data, uncertainty and prediction errors",kits/week-03/practice.csv,217,a88989cbdd3c46695fdc903509c254c0d7aeae01b0d821ebf50d27b8b1b82883
+week-03,"Data, uncertainty and prediction errors",kits/week-03/process.excalidraw,16036,cb86d6c1909103fa6958e5b5a9e50da97a60a1bdd83588eba605868a97e66cb3
+week-03,"Data, uncertainty and prediction errors",kits/week-03/process.pdf,41245,140881eb3043ff9c0ca1951fee04444842c601150fc60f089f8b678c967a21a6
+week-03,"Data, uncertainty and prediction errors",kits/week-03/process.png,36920,94192b8c42c785424e09a505081a1ceb554433044189b73be190e9b984a2bede
+week-03,"Data, uncertainty and prediction errors",kits/week-03/process.svg,4115,2e23c2b0fef915d7210ea016f9001d72ba1b6a3ac5507be64a5f1ec039d3ba00
+week-03,"Data, uncertainty and prediction errors",kits/week-03/roadmap.csv,754,4769e989aa2177f4dd1679f6e8ced056b29c98cc8eb951c9d4dec104cbe712f6
+week-03,"Data, uncertainty and prediction errors",kits/week-03/slides.pdf,205520,5239f5ac1688100a69739997768e741c1af263256da9a4273bb1b712f777554e
+week-03,"Data, uncertainty and prediction errors",kits/week-03/slides.pptx,207595,ec7f9d9171c6b98aca1d70895eab9e207618f621bf4aa85e64f83b2e7a46ad67
+week-03,"Data, uncertainty and prediction errors",kits/week-03/workbook.xlsx,19763,1742a18d9357ec49246680eebd75c0158a6a21b1b1ce23e1aafde5803f87d395
+week-04,Modern model families,kits/week-04/guide.docx,17158,c5e6b1b14d5f275390f65cb6367cdc99a5145b2ce043927e7df13739a3a624e7
+week-04,Modern model families,kits/week-04/guide.md,9859,0167f2707fec1d5390418ab611fba0969e746f63a70cc07f28ec9e28500fdd09
+week-04,Modern model families,kits/week-04/guide.pdf,164758,159cf1893e4f30a26ed777e7eb45bbde43ad19122aa49b3abc3ba951f4003931
+week-04,Modern model families,kits/week-04/practice.csv,549,f0356a7a63ec5d60dcb6d6e250edb1bcca89e9776e7fe18945dc580a54c25220
+week-04,Modern model families,kits/week-04/process.excalidraw,16036,7ffa972476f7d0232cb0bec466d0c1470b07a357063e2f4d5bd0a3c22460951c
+week-04,Modern model families,kits/week-04/process.pdf,41248,0674c9c9d6e7ffd5b2b1db3238cdd99e4e5a66ea050c686201a7712e21925a57
+week-04,Modern model families,kits/week-04/process.png,36139,036f7823c8ec03cdb17db891bc3df5d99aacb5d2b0cd0515f98b736ea81ff618
+week-04,Modern model families,kits/week-04/process.svg,4115,93992e6cc95ba76c256ff3226ef3138322d24c85e72698fe9201d978705b09b1
+week-04,Modern model families,kits/week-04/roadmap.csv,754,0e74a14734db48437414bd9a1636c100d63a2205a32e03360fd934df6e7988b8
+week-04,Modern model families,kits/week-04/slides.pdf,209452,28079b014ff302be29908ae6a51f8f9438df14a23972db5521d7d49b156032db
+week-04,Modern model families,kits/week-04/slides.pptx,216932,4a56f2c98911aa5fb0bfc26aa420df3fc9c31871598e38683d843c021cff1b47
+week-04,Modern model families,kits/week-04/workbook.xlsx,18890,e9a41cb7a9dff087f8dd2a99a3599438b77edf54b839436b25afceabf02d3b7a
+week-05,Task framing and prompting,kits/week-05/guide.docx,20195,891e782131ba95598ac7c9fead39ec509a1a0fb77cdcac935ed31080a8052a45
+week-05,Task framing and prompting,kits/week-05/guide.md,14495,2833a50700496a3de228dc8b36586705763b40ce27353e3fa7fe5f5e4b80a47c
+week-05,Task framing and prompting,kits/week-05/guide.pdf,186693,61df92fbcf7480fd8a8d97fb8d6b23b52a474f930e2143fde0ee55b8a3d3c950
+week-05,Task framing and prompting,kits/week-05/practice.csv,326,e7e1410e0c8d270595a740299bd83384b5c81bcbba36615f203cb6193fd78f92
+week-05,Task framing and prompting,kits/week-05/process.excalidraw,15986,f928363e8426997b7688c6da7fc04ab92eee7f7db2424f5476c24efac8a3e585
+week-05,Task framing and prompting,kits/week-05/process.pdf,41230,739650d8a93ede2b00079b6550ff2e8dcd19bdb11f99891753cf3e63c6b1d2d2
+week-05,Task framing and prompting,kits/week-05/process.png,37198,799aa101c84ed49d86b1c32935045f1f95524dfb543bfc48ce9721aaea950521
+week-05,Task framing and prompting,kits/week-05/process.svg,4065,1f81dc61ecb7e01c8d020fa57f7385f7192fa6e948990fba84e552f8963dab18
+week-05,Task framing and prompting,kits/week-05/roadmap.csv,754,6b72627b5dcf7e4e8da9a1f218012bccbd52806d79aaa6f8dbb65eeddcf0525e
+week-05,Task framing and prompting,kits/week-05/slides.pdf,206473,ef6b48ce02fba9b298d706c24582b1158be722b4db06e3cb98fae8e8255ebbab
+week-05,Task framing and prompting,kits/week-05/slides.pptx,210377,5a682e3dd8dffe96e2ab5d7258c7d86732a5ecc5d5ea199d5f1700f913973f55
+week-05,Task framing and prompting,kits/week-05/workbook.xlsx,20393,9d03f2f98a8c6f4f9045ea25cef5a8a0e3edebf8bcf91127fb83d09a9e9ab9a9
+week-06,Verification and model comparison,kits/week-06/guide.docx,16629,a032315e27b92313fb4bcf632278cdee75db2aff8a45f100444ecc25b128882d
+week-06,Verification and model comparison,kits/week-06/guide.md,8171,7386e06746d2a723c31b01ef29cdfc20926729ee45b1dcb763219de51f8842d3
+week-06,Verification and model comparison,kits/week-06/guide.pdf,166020,7c30b784d8fe42f0279e55c8fa9b6ff8c0ed63346df916cb4de4ad7e88ddf5da
+week-06,Verification and model comparison,kits/week-06/practice.csv,407,8a4c94cc07b914c0cd7f41bb805c99370a1036c009b027b868eed48a1da79abd
+week-06,Verification and model comparison,kits/week-06/process.excalidraw,16026,04d4899b41b8e4ae5166197c14976acad35ffce64a397e3979bb197c6ed92175
+week-06,Verification and model comparison,kits/week-06/process.pdf,41260,e055c4df3563af6cb07776d138f68a4c931326308eab55e46e40abc9df155f99
+week-06,Verification and model comparison,kits/week-06/process.png,36854,9f293e547ac2ab708851ec7e953dcf8c93b7656f146e1b493194f9aa6f5fe606
+week-06,Verification and model comparison,kits/week-06/process.svg,4105,255ac51e55a947bf0242e096a44b96ffaaf14a542f57235a1e78a17bac88a17d
+week-06,Verification and model comparison,kits/week-06/roadmap.csv,754,726ab45a354f16c77d1a8d216aae832fd675339babafbbfd5a187a4d96981109
+week-06,Verification and model comparison,kits/week-06/slides.pdf,206816,d07e362a869d886bed3a37f3cc25ca424d55df87d12a2e7508da1b463b235c89
+week-06,Verification and model comparison,kits/week-06/slides.pptx,210678,35244c43095677e535115dfede9bfb7c15d495fa91607086bb84aba363557847
+week-06,Verification and model comparison,kits/week-06/workbook.xlsx,18726,bb7188c3a573ee174bf0928e9f944daa2dde0b4cadd9ae644d3136f46d0c868d
+week-07,Research and source-grounded answers,kits/week-07/guide.docx,21347,5cf37506425957958e7b5397f647f903b4060cd00bacf5fbb0ced1ae6fbf0f42
+week-07,Research and source-grounded answers,kits/week-07/guide.md,18143,499bf992be8a2a780e6833e83faa82b2529e72099a382143efb7d9887ec4153c
+week-07,Research and source-grounded answers,kits/week-07/guide.pdf,193178,1dc5d42d7b0ea0e031e637145b7dce24be954f1cc87b99e15ed84f8f8ccbe23b
+week-07,Research and source-grounded answers,kits/week-07/practice.csv,384,b566257aa0464011736d7fd87db6eb19594338655aeee8d35010c0b7b29d8595
+week-07,Research and source-grounded answers,kits/week-07/process.excalidraw,16048,fb5d3c84e27cf6f9369cf8732402b49676af22806b671972223dc37dd44ba214
+week-07,Research and source-grounded answers,kits/week-07/process.pdf,41269,b8ee7b388a52d9eea02bfa691e3d9a2463ebffc0449f28de5ffb8458fbb1648c
+week-07,Research and source-grounded answers,kits/week-07/process.png,39754,5b2f687bdccb4de6bddd72507a61c2648fb7dbc4500cdb559f8829292d1e1ee8
+week-07,Research and source-grounded answers,kits/week-07/process.svg,4127,6fc069c62d4b242c12513056a2c9b961e72bc15167f370fbe66dc1656c3dcfd1
+week-07,Research and source-grounded answers,kits/week-07/roadmap.csv,754,dfa51af733e626dea99da3bd4c11093a2d60252d78d75383c140f76f2c1882c3
+week-07,Research and source-grounded answers,kits/week-07/slides.pdf,206519,4a6a3d07a7900c247f94cb31ca0f66d61c1004d1383709bf59051554bf823634
+week-07,Research and source-grounded answers,kits/week-07/slides.pptx,210370,6e9c39a019c3919046bf4d314c964f0acd7db03142a5a8466a9e61a0b3efedf6
+week-07,Research and source-grounded answers,kits/week-07/workbook.xlsx,18610,f7de43367cc15d22a3474553834982acae658e166d26cb88237dd8609f8d3647
+week-08,"Documents, knowledge and retrieval",kits/week-08/guide.docx,16641,99a293a2be4af2b07dd5420b6ade0ceea894cf661547a4fb8a50e0fa920424f0
+week-08,"Documents, knowledge and retrieval",kits/week-08/guide.md,8535,01071866238997259e93e20b39e2faa4fabe3cb7cb6d3b5eafe78a7b7d616cf8
+week-08,"Documents, knowledge and retrieval",kits/week-08/guide.pdf,163256,62d5217a0a7539881dac859faba72762ec37494bf55c22190999ed60ca02466a
+week-08,"Documents, knowledge and retrieval",kits/week-08/practice.csv,377,4d499f044425f12d2255a2c04c24b329ef94d44c34d26d5a322cddcfee2edadc
+week-08,"Documents, knowledge and retrieval",kits/week-08/process.excalidraw,16064,d1031319920a0a46210bfe068b0926e2393d7fd069230713e1527373a7c5e8b1
+week-08,"Documents, knowledge and retrieval",kits/week-08/process.pdf,41271,6b4852638fb1b2553d992097f39300a81e559847faa0cb8ca1d9ab99b8efffda
+week-08,"Documents, knowledge and retrieval",kits/week-08/process.png,40600,c65ecd93023aea1b0761aa04f2dfb77f2a4a5513ad297b2308f0f7c90b71a32d
+week-08,"Documents, knowledge and retrieval",kits/week-08/process.svg,4143,c717f9e651c49f232c8932a6e0eb208b81aaab96b94841a4c29e64c2b43659dd
+week-08,"Documents, knowledge and retrieval",kits/week-08/roadmap.csv,754,962dd61afb4bd486048a06b62599fa0d00a585acaa69cd97d35aef8772fa85a5
+week-08,"Documents, knowledge and retrieval",kits/week-08/slides.pdf,205524,7901827771f6df0413235aa037725760e9877e3fd381155b31421c40ad11eaa8
+week-08,"Documents, knowledge and retrieval",kits/week-08/slides.pptx,207718,afc6dd40832646f83556bd08a02025b72286a082c86132afb6ae24b0992c2821
+week-08,"Documents, knowledge and retrieval",kits/week-08/workbook.xlsx,18648,238c2154d8d0f8a0a326448ce47e74967c94bf992414d8e984b985d3f835c7ef
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/guide.docx,16772,0d987cf0c5cb57e18ff2d440fe116ba0ce1f8dcb436962c133fe7b63106e0f36
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/guide.md,8317,e0a1b1c0865149296c9ebb34b7eac4b16ace4a7cd087c5b8712c25b033379b0e
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/guide.pdf,163481,7bdba8b407e7cea93dfc1b886af8257dd3f4a835790ff397cf8ac114cbf03933
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/practice.csv,357,8c7fd048328c286c58a426b028692c874fa61ec9c9c20a5386cc73ec19498453
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/process.excalidraw,16026,07feaabe030dc6e0d7a91bd74a260609f3f588e504d7cf75731431386074851c
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/process.pdf,41251,94310c5e98770fcff4a82bbf741918f35715d858638e79eb63f4b0a127422065
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/process.png,39492,fc0c8c7b61249f4cd473c31e6ef25e551028e7af76fb955fb766c29c1a055fe8
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/process.svg,4105,343456e07de18820d3d1000073174820937434a59d4a87ee63626a023a01f982
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/roadmap.csv,754,1434c844e3fcfaceb099515533a1697ae0af5050bd6da871ec90059c0367973f
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/slides.pdf,207757,4a92577abee7abb47c6d71deb92cce052e1cc429144a5eab55215c14b657f29d
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/slides.pptx,213344,eaf7522d3c861e432b9cc6e0bc5a2564bb2679964c39479f3bb29c4431ebe994
+week-09,"Spreadsheets, data quality and cleaning",kits/week-09/workbook.xlsx,20266,11d4763c454b87cbc5da3d3fce6d9967692a13933158f04ab1d033d0154f3652
+week-10,"Analysis, visualisation and decisions",kits/week-10/guide.docx,16243,01fbfac6b8fa116991d21781bf4c969c01ae7ae0e402f2bfc061bdbf5ed9fac6
+week-10,"Analysis, visualisation and decisions",kits/week-10/guide.md,7969,3e5b5fda70bd083410c725bea94d6b22286c54712f6c3e7b9b07a2c5d39061f9
+week-10,"Analysis, visualisation and decisions",kits/week-10/guide.pdf,161099,164ee7d4130f335e1944f300f80765c52fb0134fcac058b40dd840818f13c6ee
+week-10,"Analysis, visualisation and decisions",kits/week-10/practice.csv,115,6f6736560054fadfa4d5c12f955242433e3f52d0e6c9df8fc89a73a341ec1c60
+week-10,"Analysis, visualisation and decisions",kits/week-10/process.excalidraw,16028,30cc117e0fea75d619d3b9ec63a356b9fa553fd3d98b19787994125629dcc19d
+week-10,"Analysis, visualisation and decisions",kits/week-10/process.pdf,41258,6ec025fd9277864a11ce21ad7b2c9bf45cbd61f3da8987fb7c9590929271f449
+week-10,"Analysis, visualisation and decisions",kits/week-10/process.png,37591,636a1db823a4360ea3e0d6a6c058ec2150b4ae95f210ad62410a26f268cbc344
+week-10,"Analysis, visualisation and decisions",kits/week-10/process.svg,4107,051ff9d1afe84351a69d6d84db86f3dd10517e97af9a898e0fff8092b7291a21
+week-10,"Analysis, visualisation and decisions",kits/week-10/roadmap.csv,754,71540d7592c9dd98e3b2a6318cfc5eb1c2862ac48c9047cc87da128ba25bc788
+week-10,"Analysis, visualisation and decisions",kits/week-10/slides.pdf,205335,a7dfcf45f71966f2639b1db1118734d0f80659e728b4c20b7f7c82ab29adda18
+week-10,"Analysis, visualisation and decisions",kits/week-10/slides.pptx,207388,bce8cbc93de1e6f5f662adaf26ce817f2825d6991d497a2cc629931216896ca5
+week-10,"Analysis, visualisation and decisions",kits/week-10/workbook.xlsx,21896,123359991f152262f416deb4cf0bff9b49ec917c3e1a9ec25e29a428530fe749
+week-11,Images and visual design,kits/week-11/guide.docx,16383,e65da610399dcbdc4b38d089761a5f2afdf35cf3b275e5aa48508c9afcaaabd7
+week-11,Images and visual design,kits/week-11/guide.md,8292,cd54591a2a98fcf6648c3aee7c15c9d3819eddde46cb774a65a5bb425c1570d5
+week-11,Images and visual design,kits/week-11/guide.pdf,163771,0c4e8d4f9888ca0a7474e8365113daba54400695fde3acac71a62d11c74bdf95
+week-11,Images and visual design,kits/week-11/practice.csv,343,df8f540c99e83c3b968dbf81e031f7741d28c831401d49ed459a4adc69555866
+week-11,Images and visual design,kits/week-11/process.excalidraw,16040,cc4c0b34652016394c57c8e60ee828d73b90753ab2f9c8df7457498a624d2023
+week-11,Images and visual design,kits/week-11/process.pdf,41249,fecb8665d02374cf707de26b7b8a321279d9e28b627444a7bcb9a2751d43051b
+week-11,Images and visual design,kits/week-11/process.png,37711,184707616a121b84c1e758b1ae2ec3c55e7c503210c945ff0cf8314cfb90a62e
+week-11,Images and visual design,kits/week-11/process.svg,4119,b52c7ba2ae9ac955f4c0302eec48f2304f1dc70c7ac174f8c5d1bfb115331c70
+week-11,Images and visual design,kits/week-11/roadmap.csv,754,dce4841de5b9976fa3cf8cf19a2fa20a4ed090b23a124cefbc89f1113f9d2845
+week-11,Images and visual design,kits/week-11/slides.pdf,205734,5d5ef82972b12277514a9b52669d3da7795418f4b02bfc1099dcb8d8792cd150
+week-11,Images and visual design,kits/week-11/slides.pptx,207965,6802b29e592520f49e327fcd9fe97417b761ea2b03cfb907926a6bb5cb097260
+week-11,Images and visual design,kits/week-11/workbook.xlsx,18590,acb8ec87226d7452098e9f2c9395927835f483f3668a16d740e8da0452689663
+week-12,"Audio, video and multimodal production",kits/week-12/guide.docx,16610,fb6cea52be44ea6a6412f6be05ead76ab706d7f5b96e3dd9bb99ba4a67bf2905
+week-12,"Audio, video and multimodal production",kits/week-12/guide.md,8597,3d6481dffe6a0899b3b33c2e3d718b3bb5ca84c8cc520fe07c1bbd97aa703677
+week-12,"Audio, video and multimodal production",kits/week-12/guide.pdf,166290,384226b315476264b0c59e743af3089bd5e278746af02a4ab03d491f1887ffba
+week-12,"Audio, video and multimodal production",kits/week-12/practice.csv,310,08484d0532209bb21b7ef76bc635219a6c63470716312182b027cb749734968a
+week-12,"Audio, video and multimodal production",kits/week-12/process.excalidraw,16056,b81e724c291800d9a3b468f9c1107e9c888a8f7e1469a53613b4be9c9714364e
+week-12,"Audio, video and multimodal production",kits/week-12/process.pdf,41266,f8198b77827a725e3c894c6aa6eea3e6db7615a7a02b6f2a8b67295b67734e10
+week-12,"Audio, video and multimodal production",kits/week-12/process.png,39206,31e32ed1fa246aac21a6562b851d56becd953defabeb2553144feecd5c8446e5
+week-12,"Audio, video and multimodal production",kits/week-12/process.svg,4135,ee83904f8909d2d750470effc4ad17e0131645476f85b845d219f835071f7b21
+week-12,"Audio, video and multimodal production",kits/week-12/roadmap.csv,754,435855af0e7caf7d5ff073fef40b6ed255c6a0e5c1c39282e769088a6b842cd7
+week-12,"Audio, video and multimodal production",kits/week-12/slides.pdf,205672,5bb478d51180f851f668c144b15346bef0344478fd872bd90cf4f11d5d1d4b09
+week-12,"Audio, video and multimodal production",kits/week-12/slides.pptx,207843,0aa2796116ed98a81e56463ec1df8fc785bdc3f5138d8fc87ed7b560b5f2c006
+week-12,"Audio, video and multimodal production",kits/week-12/workbook.xlsx,18581,6f976ea6ed1cb7a4bfdc314c544d0560baed89102e5fedba4f5646e665196b54
+week-13,"APIs, connectors and automation",kits/week-13/guide.docx,16622,d4aae0e2fee444c798f65f271825f62a8ab028d48b1b6e8d54cc86507fdc1c90
+week-13,"APIs, connectors and automation",kits/week-13/guide.md,8431,ecc9a5e16bda7f90150b2633b8e6283416c0085a392664c620c086e0dbccc855
+week-13,"APIs, connectors and automation",kits/week-13/guide.pdf,165295,9811d24550d4409f57c703b1da555ee8a502c5a00fb8eeb8b81929c413dd7b09
+week-13,"APIs, connectors and automation",kits/week-13/practice.csv,398,091d686e2fd097c7181bb5df6ebdf45be6dde45c8a085692cd2bfd93975717fb
+week-13,"APIs, connectors and automation",kits/week-13/process.excalidraw,16044,f32e762037c802a6b4e8ea8829f470f5fc05ae9d68288be7445c0bdc18a9b6e8
+week-13,"APIs, connectors and automation",kits/week-13/process.pdf,41263,45f10723504eedc4c8956de0a73c4391ab52e9c3ef3327425fd6a6309fc3bcd9
+week-13,"APIs, connectors and automation",kits/week-13/process.png,38397,8d321f304d283009d5f043551ff6f1301cc79bdb3c5643bb87903c30ad7e7f1e
+week-13,"APIs, connectors and automation",kits/week-13/process.svg,4123,f5b5e985bdd2a1214ac555639cd9e66428dbd039d62526af0a7b74bc78349fea
+week-13,"APIs, connectors and automation",kits/week-13/roadmap.csv,754,9760a31235a79a4d4dd8c4f496034542e15d344e59db8a33b3bde1cf234cb114
+week-13,"APIs, connectors and automation",kits/week-13/slides.pdf,206979,c47373950c2cf93c264b1520e50cc9a8141525c6d003dec10e8711424bf34fe4
+week-13,"APIs, connectors and automation",kits/week-13/slides.pptx,210879,89a2f7dd26712b5afe19e1f271761476a1f948b7f247351b0d655d016d38493b
+week-13,"APIs, connectors and automation",kits/week-13/workbook.xlsx,18620,dcc02bffb5aa9f0d6829ac5138ea3367d852557713e8ad60861c7530607f3668
+week-14,Workflows versus agents,kits/week-14/guide.docx,16406,4a23af21e93a116335ab1a7650438b11303e1823ec8d4f0310de013a18cceeb6
+week-14,Workflows versus agents,kits/week-14/guide.md,8117,8868676486185f6b62ebd50ee2eccc0665f6e1e2eb4b8906befa44bbff84fd30
+week-14,Workflows versus agents,kits/week-14/guide.pdf,163978,3a98eac216e008b00ab0a06c7adf0e43e4f37362589b552ef1a4460bfa00bb20
+week-14,Workflows versus agents,kits/week-14/practice.csv,373,28a3c3985b1cae61ed215b65e776e542b5144e6aa500e128e915fae248a91c48
+week-14,Workflows versus agents,kits/week-14/process.excalidraw,16042,7c09f3b4f3450b933fae56307840492f9b096a45728532d41188e7999b33ba9c
+week-14,Workflows versus agents,kits/week-14/process.pdf,41258,a0a10a0bdc2cf79658cf7a84d91a51f78f3027a2857bfdf1117103a8cb828564
+week-14,Workflows versus agents,kits/week-14/process.png,39574,9477728c47f89a82846aa6d5fec1eb121eed0c7699a22a681fc8f80a476b1c8b
+week-14,Workflows versus agents,kits/week-14/process.svg,4121,6c7fd77a824ec28a02a0b2b0437a324a32f54c4971001001ce3a4d35786e5e5f
+week-14,Workflows versus agents,kits/week-14/roadmap.csv,754,98b6ffe55a25c1995dd4d7ce3663e80759cd4fc2e1484585095a4b22f9ea29dc
+week-14,Workflows versus agents,kits/week-14/slides.pdf,206743,62d1297fe1691dd01e6ca0cac422c5b2e5e6127d6e919d604e61a282b6c346e6
+week-14,Workflows versus agents,kits/week-14/slides.pptx,210594,b2ad0913d3f6093ceca1790df9e311ee7b748bdc36e9449e6a2a53184b5a146e
+week-14,Workflows versus agents,kits/week-14/workbook.xlsx,18649,d116bf55b599fd4062d13ceb36b4cbf07f2dc566a1d7203fdd27b99187915c9b
+week-15,Choosing and adapting AI systems,kits/week-15/guide.docx,16758,4f2f604326fc2076a6e7fc5d0bb6cf81b1f04153de9e8bc1b54cc4d0f8784a8c
+week-15,Choosing and adapting AI systems,kits/week-15/guide.md,8636,11bd4271d640810c0b4e1f12d593dd204bc9112354a9e95e9dbaf4eeac0ac4bb
+week-15,Choosing and adapting AI systems,kits/week-15/guide.pdf,164200,7499730393ec878c39058907b83fdc704d83ba5a3e406d9008339082807dc501
+week-15,Choosing and adapting AI systems,kits/week-15/practice.csv,425,8f138576636f0490ba6ad63b66c9870c8583f2164ac9bcab2fd35258936e6afb
+week-15,Choosing and adapting AI systems,kits/week-15/process.excalidraw,16052,98e8c33fc8b2d067438411e8ef68f06a76f82c718a6af02171cce604d3d6d6b0
+week-15,Choosing and adapting AI systems,kits/week-15/process.pdf,41254,872c3711a979abcbee1bd84b3c444e0433c4cc7e93d2df837c58ba8677f93bc5
+week-15,Choosing and adapting AI systems,kits/week-15/process.png,38731,7484b59fc95e3c3187c8cb0f0513bd3b069e5c65d7209d1d2b037a5564852be6
+week-15,Choosing and adapting AI systems,kits/week-15/process.svg,4131,584e46dbe9f0e4f170c2fcbd7ac826c54611efdd7c44ff11d25e05068f9ed9d2
+week-15,Choosing and adapting AI systems,kits/week-15/roadmap.csv,754,3a1efac104ebab8a72e5703b8aadf969c4d4d9ff10f6d01e33a4e155b7b764eb
+week-15,Choosing and adapting AI systems,kits/week-15/slides.pdf,205641,231ac3009ad995e1e1f4e547e524238d8ee1444427c7884d14429727fc78bc35
+week-15,Choosing and adapting AI systems,kits/week-15/slides.pptx,207850,95363937e02c9cccc334f81298c77f3a88724db038009546fd272d07ae7be2c6
+week-15,Choosing and adapting AI systems,kits/week-15/workbook.xlsx,18740,55fa16e6d138a79d3716e4c096dd719c49af973cd1038434f5e3210fe61f55af
+week-16,"Evaluation, security and governance",kits/week-16/guide.docx,17164,1aeb7edef1078d53b8c4d5a7bf0fc8883b2fe8e8bab66aa8d28ed7efe94d9964
+week-16,"Evaluation, security and governance",kits/week-16/guide.md,8901,40d9f7b2234c0419d7f1e18280d74331d2d72e38dcc122521fb74f73b56795cc
+week-16,"Evaluation, security and governance",kits/week-16/guide.pdf,167199,c6ea791ce8926dda0868b071dfdb012f5c26efc8a5b5add82aeec85ba7ee73ed
+week-16,"Evaluation, security and governance",kits/week-16/practice.csv,812,e92ca86636d53a1e6be56b21f4fd0eb3a2dbcf81a1d7c6a385620a51af5b8d52
+week-16,"Evaluation, security and governance",kits/week-16/process.excalidraw,16064,d1c5ede82ce6afa94215c4deed81a45f2926f83cf4dfa30067be4e14ab68e87f
+week-16,"Evaluation, security and governance",kits/week-16/process.pdf,41265,a741fc3a4d728e52a5ae686e39d914f1334a872de2375f93f1780a1457597551
+week-16,"Evaluation, security and governance",kits/week-16/process.png,39265,b28bb608c4b6a00208a1d83fc5721fd2c88527621120fa9ef9e3e7e7071bc7ea
+week-16,"Evaluation, security and governance",kits/week-16/process.svg,4143,d771ae7e463166b8265a0e2b987a8cf2e4b4efe8aa70868c446ebe368a7bc9f8
+week-16,"Evaluation, security and governance",kits/week-16/roadmap.csv,754,cd6c090b4e456077f91b00b92ce78b629662e2d8ab20810b70cd0a237061bb52
+week-16,"Evaluation, security and governance",kits/week-16/slides.pdf,208541,266b3061900b0f20d839a5e7607568798b6bfb4ab1cbd37152bd5118d9055a50
+week-16,"Evaluation, security and governance",kits/week-16/slides.pptx,214312,0a642aa9c2d564f13a15a324b81e4f9ac42d70edbe86d7aa5869d2313141f8f6
+week-16,"Evaluation, security and governance",kits/week-16/workbook.xlsx,18986,6e4c8831e87fe641ee0e3c3c32706971d33b887b51a6d6ff9dfe2a58043de80e
+week-17,Define the professional problem,kits/week-17/guide.docx,16248,1553f462569b18481c01c973a8e3aa8e446769681bb87dd036aea875b6d03da3
+week-17,Define the professional problem,kits/week-17/guide.md,8064,70cbf06a3d52836a3e0db9697cadaa73c420da1b5a75c2b6e02483cd2c83c5f6
+week-17,Define the professional problem,kits/week-17/guide.pdf,162806,5baaa3b686d16cda0f73a18d4ee039cb1ea6ec2c7ae6efef992fc2e4236a5cfc
+week-17,Define the professional problem,kits/week-17/practice.csv,418,c673b839bbf70ceeb2a062f8d0c74a1e5a6bba8ee458f9e40ca94311650e38b9
+week-17,Define the professional problem,kits/week-17/process.excalidraw,15998,99d306a40bb02867a60bc608f59b82c2ac946868bc93dc309f0489ac29725463
+week-17,Define the professional problem,kits/week-17/process.pdf,41239,8034b6bee68d0bc008f9086ec283800a790f2c1619992354e30e99a99e8f79a1
+week-17,Define the professional problem,kits/week-17/process.png,37489,c7f3aef913554640d28f92dd08ac122ac92fc5a2d5c7faa835453459427abd8f
+week-17,Define the professional problem,kits/week-17/process.svg,4077,9a1b0bd24165d796a38cca10eb8efaa50feb84be271768578821378112d4d69a
+week-17,Define the professional problem,kits/week-17/roadmap.csv,754,fcb512ccde95500530ec975eaad42695ab54333ac10f1735b444e7394c78c0ca
+week-17,Define the professional problem,kits/week-17/slides.pdf,205671,21dfe62c3e24764d62e0271ecc8cd7ab64388774390cdeb608832054282bb2b5
+week-17,Define the professional problem,kits/week-17/slides.pptx,207777,d922a099c7f4721f85c38cf46690e20e12d5dc9f76221465c6749fd7f9e5b2a5
+week-17,Define the professional problem,kits/week-17/workbook.xlsx,18568,13ff38dc176837fc9ff86d15e1b304a94fbe6cfd086a3cb5a5a04dc63f88abd0
+week-18,Build the first professional workflow,kits/week-18/guide.docx,16468,7c5618fe3c0079fb2acf09fb9f28e07bdc21853e78d848c78668d1539c36839c
+week-18,Build the first professional workflow,kits/week-18/guide.md,8239,ccb26ab4b578d11c3258d9433606f1c4874f6d0c8f30c0a79b042c1fc7651fdd
+week-18,Build the first professional workflow,kits/week-18/guide.pdf,164598,7803372b2ff3837ae0e33d01007c793e5658f398ec51d5e24fffab5a121b9ace
+week-18,Build the first professional workflow,kits/week-18/practice.csv,329,4c037a445add37504a90c9c2b8e0929c0f88ef3c78217ba75dd9c522862fc635
+week-18,Build the first professional workflow,kits/week-18/process.excalidraw,16056,aa37800875495a2aaf3379d68fca9b982745d5d66c70cbd491c81976f18ab290
+week-18,Build the first professional workflow,kits/week-18/process.pdf,41266,aea09efa83f6c71dae0468cae63138dbfcbd8f19ecebffd135600822db135fb3
+week-18,Build the first professional workflow,kits/week-18/process.png,39582,bbd949b6e63d6a323ccdc5d3226f0328253772c311ecfb360913bb7c8d7ec9b9
+week-18,Build the first professional workflow,kits/week-18/process.svg,4135,1d29fd9230b498139a24aa3505b5307ce84e3659e71622cd9c2ee6b9bb52abc3
+week-18,Build the first professional workflow,kits/week-18/roadmap.csv,754,be34f6534d7988f22a6100464e4b386fd233c1915cc5ebe12ccb6b8af819da4f
+week-18,Build the first professional workflow,kits/week-18/slides.pdf,205490,c736cc8987a68d07db4180ebc9a204dff3f01d1bb06d5a198521d7f9da1d1be1
+week-18,Build the first professional workflow,kits/week-18/slides.pptx,207581,8e597acaf9e66d2db62bee7a94f0c131a0ea8128b8907a111304f1df036f2750
+week-18,Build the first professional workflow,kits/week-18/workbook.xlsx,18602,fcaf1c8c26bb2dae0eaf8b45618c65186711d28fe60dbf9f3f2c89f3fef92634
+week-19,Challenge and improve the workflow,kits/week-19/guide.docx,16397,dc399a2c50ab645899e638afb7484636577f4cdb022762814ba71425593efa92
+week-19,Challenge and improve the workflow,kits/week-19/guide.md,7942,855c59208e302d2cf9557c9e77858818c4f402a16d3e1d5c52c8b22236bbd28d
+week-19,Challenge and improve the workflow,kits/week-19/guide.pdf,164618,81f00152a39e6ee1c79b65525a4ad4a08f778a328ee8a6ee9957ed36e1b4483a
+week-19,Challenge and improve the workflow,kits/week-19/practice.csv,439,acb56aead6b36d7603ec093e8cf2eb2333bfdd6620f7eb9b391d4d00c8d96fd7
+week-19,Challenge and improve the workflow,kits/week-19/process.excalidraw,16012,91a6ae453e96d739e23241e12cf0b1190b2bb57624b1d927f2a1287760c0c6de
+week-19,Challenge and improve the workflow,kits/week-19/process.pdf,41256,02bdcf861493c312c27ecf1d1235b783e05ab1d949852d9f42da795eeccf8342
+week-19,Challenge and improve the workflow,kits/week-19/process.png,37457,7a99d69ac89406acfca1b84d0fc36d31d36f685c94be408afc3bd83a203212d3
+week-19,Challenge and improve the workflow,kits/week-19/process.svg,4091,98e83f95cc03cd800740efec83de88a74339b977f0eabe2fe431e3cea1325a54
+week-19,Challenge and improve the workflow,kits/week-19/roadmap.csv,754,fe81bffddacdf0ff1f97bdff8f02f1930b77af5e8cefb74ce08c57834d2c8e4a
+week-19,Challenge and improve the workflow,kits/week-19/slides.pdf,205450,8781781874791912ec16dbf6d4f180c82b10d13a7b45c2e46109ae0b7072a868
+week-19,Challenge and improve the workflow,kits/week-19/slides.pptx,207514,87f158db951aad4704ef2ce39baaea178b50f4c072194c8eada8c3625294c38d
+week-19,Challenge and improve the workflow,kits/week-19/workbook.xlsx,18580,67d378e47d48d439822e90b2fcba3f8ab15e2c60181db1117ff44524023b861e
+week-20,Professional handover,kits/week-20/guide.docx,16252,fa525889af7108e63ab292fa212fa12abc9009834e0da78f82762da3573f8223
+week-20,Professional handover,kits/week-20/guide.md,7977,03948974f75177ad58122b51bf1d94835a0c81bd98171177ba0dcbe3648c607e
+week-20,Professional handover,kits/week-20/guide.pdf,163151,93e0caf55c9f4ac7a5b66e09e4f0b3ac7ab30b2706be6bd0f61482ec593452e1
+week-20,Professional handover,kits/week-20/practice.csv,415,0664ba70803a638872fed81f6999e6df6da76ce3630ed2f6b9b4230abec71125
+week-20,Professional handover,kits/week-20/process.excalidraw,16004,5432bec5206f3eee8a329c88f335c046438aef9ab4cc7e251add9bddb25ee0de
+week-20,Professional handover,kits/week-20/process.pdf,41243,a5361df205a8bae39690fbfee7483d77907e1a6fc321478a1994ae5f455aaabf
+week-20,Professional handover,kits/week-20/process.png,37208,ca02bcc80c87b19290fc42eb22a87f26b7848bd78b623dda4983eeaf2e7b8cd6
+week-20,Professional handover,kits/week-20/process.svg,4083,a8ccbaacbad7dc4204303eb3bb5c2610c5fcdd45a1d8a4b9ed7fdbac34358874
+week-20,Professional handover,kits/week-20/roadmap.csv,754,d09fcba46150bfdb9eb0155d4069676b7b03cfa44a2939e0eb8ea2e12c73cb2e
+week-20,Professional handover,kits/week-20/slides.pdf,206665,7a1855edc0d220f5db1f5f52ad53b49381daef43cbedb9c736d5abe146d4dd46
+week-20,Professional handover,kits/week-20/slides.pptx,210472,8bd05c8db5bb85e168502448b2b00497db86dc35f499145d517df14896085d4a
+week-20,Professional handover,kits/week-20/workbook.xlsx,18596,3a389a319fae72981bf54413466d0dbdac8039e700f1684a589554f69a38c970
+week-21,Capstone scope and evaluation plan,kits/week-21/guide.docx,16203,1db92d4f44ecb0705ef874b7668893d012b6bcad1954676eaa3ec988d4fa0e42
+week-21,Capstone scope and evaluation plan,kits/week-21/guide.md,7970,3cbfbfc27aa644b5b8db7d31150ed8a980ba9270ddb1525399698e50e2df0530
+week-21,Capstone scope and evaluation plan,kits/week-21/guide.pdf,162382,fd6a1f63814687b710dc4bde3af1e1bd40d4daa9f1aff95acd0ffd3ad9690d3f
+week-21,Capstone scope and evaluation plan,kits/week-21/practice.csv,246,ee0eacd9d2d2634771c76eff988994b8dcbb7b8f98ba2e7ffccfc02c942b52ff
+week-21,Capstone scope and evaluation plan,kits/week-21/process.excalidraw,16032,abdf7133e4ee09afe3e3462f2997b54af1787a3d805bf8d37d56a9d9e166a695
+week-21,Capstone scope and evaluation plan,kits/week-21/process.pdf,41244,815a89bb2d46332ae32df00ca96b861535092f1367b7faf108685578e08d8b87
+week-21,Capstone scope and evaluation plan,kits/week-21/process.png,38197,ae3f48dd8637b2d8f5fed193dd0baa387aa26a6cb08fc535d7900247d0ff09db
+week-21,Capstone scope and evaluation plan,kits/week-21/process.svg,4111,52d578ef5b4fb55eb412fd3fa7f9a6b9f26dbb96e87ee8ef9f81da52b2613925
+week-21,Capstone scope and evaluation plan,kits/week-21/roadmap.csv,754,d6de35ecc7c750b99192bc98fedb090ce777a40c496c2ecb2842b25ef5e829e5
+week-21,Capstone scope and evaluation plan,kits/week-21/slides.pdf,205389,9dfbf9e4701371f030b8f52f22748282a8ca86cc09575797907459eb86aaa949
+week-21,Capstone scope and evaluation plan,kits/week-21/slides.pptx,207462,1dcf6214b3342011d8f2e638462ae2b46379270e7c957664c77cfed69ee08636
+week-21,Capstone scope and evaluation plan,kits/week-21/workbook.xlsx,20163,acaba9b05e28ee33de6663934c3a10f104426c08babf2cfd8b77c639546844df
+week-22,Build and document the capstone,kits/week-22/guide.docx,16361,fd4d16f482842e64ab85d07c17ac1fa178e4a54e47ac1158f3615bd386094439
+week-22,Build and document the capstone,kits/week-22/guide.md,8091,4cf8250468758ccaaf2ba2713de35f45512eb25965470edf636be0dff681a103
+week-22,Build and document the capstone,kits/week-22/guide.pdf,165203,4185e4b5a9cb9dae868c3f42386fd1da2f8a42a709dd45b98ce4d0c42e8d2d7f
+week-22,Build and document the capstone,kits/week-22/practice.csv,282,276e521d1fe7f63f9da70336f0e9b17c399e98615f3507f183fecaead5c96186
+week-22,Build and document the capstone,kits/week-22/process.excalidraw,16028,eb0d9ce6dbbc30345bfa905f5c475c4f40a6506bfa70d4080938de90960642ba
+week-22,Build and document the capstone,kits/week-22/process.pdf,41254,c17708edebfff62fd5e111e889e7ed2ccc39380b3aba39793104b0da5c772022
+week-22,Build and document the capstone,kits/week-22/process.png,37959,2eb40e73e360a09b9ec57090eb82cddc1be4f101a31c7af9b885482f320a5a85
+week-22,Build and document the capstone,kits/week-22/process.svg,4107,0cb0b0c1495ae87c182d06b4ccf7d0601d4d2fdb18462ebb2283a468b44e0e29
+week-22,Build and document the capstone,kits/week-22/roadmap.csv,754,8d18880adb43fb8d50cfe933d0e4c4d9ce5a5766341334b6a40d0dd37449ef4d
+week-22,Build and document the capstone,kits/week-22/slides.pdf,206580,af8b1908029fcf5a9c90d94c11deea6004c515d746735901921684c9abe7764d
+week-22,Build and document the capstone,kits/week-22/slides.pptx,210430,e99c7a5723462783a10a4297ccbaf0597c76bd5ef29d02abec0b19694e5ea1b6
+week-22,Build and document the capstone,kits/week-22/workbook.xlsx,20227,901ea4e1707ee6bce43fa7c551022289ae338894f9625ac3b03ab02c81b46685
+week-23,"Evaluate, revise and report",kits/week-23/guide.docx,16318,9a8823af7aedea64818e9a4aa859be5d2c1e05d12054bf3ea1b984e486361219
+week-23,"Evaluate, revise and report",kits/week-23/guide.md,7924,bfd6af1a08b3aaf11fb87e6ea8006500c16e747f13b249c35946a8a47050c562
+week-23,"Evaluate, revise and report",kits/week-23/guide.pdf,164651,d5675b7a70bd57b4b2aa28fcf6907e0c2f5af545c4d015c5a7b1d9909a02c089
+week-23,"Evaluate, revise and report",kits/week-23/practice.csv,309,03b14497ba873ddb4b2b0324ae4077b9e2c87aca52732f0510191b3f943a23e7
+week-23,"Evaluate, revise and report",kits/week-23/process.excalidraw,16044,b5b4089618db709387bf0f915cbec125856e43abbc1f5e1f4276341115cb756c
+week-23,"Evaluate, revise and report",kits/week-23/process.pdf,41254,2cb881ba20303eb5273ec9347ae8ddbff95e1e76cf7d52b3c106ef863145cdbf
+week-23,"Evaluate, revise and report",kits/week-23/process.png,35711,74bf3475f40d0fd3ccd816b79425b1fe57793b8e32cafd631f60582eb9f43bca
+week-23,"Evaluate, revise and report",kits/week-23/process.svg,4123,24c7f4e5659b5103722887f5125f28ea36b84f65531742543379dcdc85def040
+week-23,"Evaluate, revise and report",kits/week-23/roadmap.csv,754,fb4df7a37331db55846560d910f9e0d95d4b1512b137704d627b6a49dfeca455
+week-23,"Evaluate, revise and report",kits/week-23/slides.pdf,205359,42daee88707da4c78950287446a5333aaf71fec10a1f7b0ee9ea30cdf8429f6d
+week-23,"Evaluate, revise and report",kits/week-23/slides.pptx,207448,4967cc35c5566ada6ab846849dd67cdd57364d0bfb51eca38cb48d22041c2b24
+week-23,"Evaluate, revise and report",kits/week-23/workbook.xlsx,20217,e153e124fd7e3c3e616437a2d82f11bea51937ba2bf02fab656a9a384679ae00
+week-24,"Demonstrate, defend and hand over",kits/week-24/guide.docx,16317,3fa5d585c1382f223e9faa570c2f509c24fa675f1f96c80eeb9727b80278fd4b
+week-24,"Demonstrate, defend and hand over",kits/week-24/guide.md,8301,2f324a92637529214d61440632c4818f1663676444f3dfc235db3c503c160c26
+week-24,"Demonstrate, defend and hand over",kits/week-24/guide.pdf,163557,665829510cc62406a1b73ef91794dbe0cd2f2c415ca92dcfc548a7693dd5d27e
+week-24,"Demonstrate, defend and hand over",kits/week-24/practice.csv,292,88fe6366e125e2c5ec8809c6c96f750b1f133e53946d4a4528c093a4097e6b0a
+week-24,"Demonstrate, defend and hand over",kits/week-24/process.excalidraw,16084,7dafd1318803507297be78673393c4b107e98c4c4e2b273a784cf70e3cfe0baa
+week-24,"Demonstrate, defend and hand over",kits/week-24/process.pdf,41263,4c0615fa70bce71d11e98ee2cc66df33fcd04f6ed8f83d83769374cf64b287d3
+week-24,"Demonstrate, defend and hand over",kits/week-24/process.png,38339,54e148926f5745a68a54569c7724a1a1f70b2202da6b0bceccbc8ed0018a9a59
+week-24,"Demonstrate, defend and hand over",kits/week-24/process.svg,4163,e0ad03a2210a3c97154e26a5f424887b2d1c8350a3c2f6a14ff33f9d946d5aeb
+week-24,"Demonstrate, defend and hand over",kits/week-24/roadmap.csv,754,7e908ebf6d8a8939233de2b6d3fcec2c85ee9d73dbacd9f7124913b914f91129
+week-24,"Demonstrate, defend and hand over",kits/week-24/slides.pdf,206749,e85e8b5851279ac703f0e50673d75d6d77ba16eba95682d1e675ce51c5183a74
+week-24,"Demonstrate, defend and hand over",kits/week-24/slides.pptx,210685,ff193ab44cd4f35d58d6d038ced6ed502ab857784002039bf3afc1835a31cee6
+week-24,"Demonstrate, defend and hand over",kits/week-24/workbook.xlsx,20232,8f6a1161e1a24fda5cdcee62eebd71194e8507db3e73f7f1f19cf082ee8f78e8
+blueprint,Curriculum blueprint,kits/blueprint/guide.docx,41807,4fdd5dd44a3e6622d44d8e7d1401942b6cd9d63060051b55788f122e31529c06
+blueprint,Curriculum blueprint,kits/blueprint/guide.md,60720,1016f8cfda5513a397e00a437dac665139e03c58aafdb67f87c25ba6303d3b4a
+blueprint,Curriculum blueprint,kits/blueprint/guide.pdf,281832,80d9e51f22db4b8199e7044024a58bc60530a4138701e4a5aaf0c956f8b42387
+blueprint,Curriculum blueprint,kits/blueprint/practice.csv,231,7889ea813f58bcaff1415a165b1fa56e25515d9930179fd6dc1bdf9657f4c86f
+blueprint,Curriculum blueprint,kits/blueprint/process.excalidraw,15984,a7f22e4b62a050a7a6b7665779e3a546156307e13c4612c4c2cb59bd83357f37
+blueprint,Curriculum blueprint,kits/blueprint/process.pdf,41233,2a1bcdd22e8dd678ff925e894ff0eff4ccf3a72fb2aaf0e4b62f50ee96df951a
+blueprint,Curriculum blueprint,kits/blueprint/process.png,37918,7513e2eefd34fea9e530d913119836868d24bf72394beb74d07f7b567c8179ce
+blueprint,Curriculum blueprint,kits/blueprint/process.svg,4063,0c80dfeae16b45d15d3b75aeca3b064f0935a516d05c37dc96c26d453e9dbc7b
+blueprint,Curriculum blueprint,kits/blueprint/roadmap.csv,4404,b5d56a6e88731355e2cb190dd5f669e4fff83a32ef727b89cbe4175e7c63d34a
+blueprint,Curriculum blueprint,kits/blueprint/slides.pdf,207907,27c49ac445c2f3e952d3efa46592e8148649ac2e92a69f52ac1926b2132f9860
+blueprint,Curriculum blueprint,kits/blueprint/slides.pptx,214898,b240e06dae3e5e67d1be5dc2bbe9edb0c965d21927bb168eecbf8499d7fff69f
+blueprint,Curriculum blueprint,kits/blueprint/workbook.xlsx,24767,23850ca6adea7f6d2d8a75c1b0dad38df089e543c040fd4243a8e8dde29e4366
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/guide.docx,34587,9a29cf9d3758e9d39d53265c52100ea5d517fabca1d27e12ebf8b5a39bcfec8a
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/guide.md,47861,b1938212cfc2df0757cdfe33ba9353902aeed11b09464375305b0148a1164bcb
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/guide.pdf,255290,d5409dfdc416268b3486879447b4065d773938a007c16ea10997cac8891412a9
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/practice.csv,340,5c241125d18bfb0e3e975fbdb6a1335cf438b8a17266b245ac68045b82d30e3a
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/process.excalidraw,15972,8173b20b8d931e237ad3534bf498fbabc4a50ae8b9e39dde3e6e05344c04b348
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/process.pdf,41223,af46b61a57cac086c41c67c6e48665284bc1e4f7aef109165575545113ec3a46
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/process.png,36435,1cef7a70d3a11bf9b8585906b63cae792375962acaaf7339ced469a3eb181a63
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/process.svg,4051,69309e55b07e7cc4f723309f8c42851474a3217a19beb1e0eb93db331fdfef19
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/roadmap.csv,953,0815af4aa176e5ad5523b14ea6bc5ffceb6b7d3e2f035770539bf866c5fb0296
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/slides.pdf,207037,f526f5c7fe70b7f3bd5e90c7bbcba2eedb9e3e51f7becd1300796d1ac8a4d7ae
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/slides.pptx,212299,58939285866c8a73bef98506ceba6c5d373b8876b1c9c76c09dcba29a157a271
+instructor-guide,Instructor and pilot guide,kits/instructor-guide/workbook.xlsx,18746,c4425c9073054262adc3c32470df4618e03dee779c70f409090be7ad467e911a
+project-01,Creative campaign,kits/project-01/acceptance-tests.csv,1123,39383dfc6c07c53428aab80bb6e0512f7362f469c2177cb51db1f2532d72db89
+project-01,Creative campaign,kits/project-01/architecture.excalidraw,30687,58ffccc73f4a47bb5973d04cebb94d0b29f3dc0ebefff0b0531779e346d5f8a1
+project-01,Creative campaign,kits/project-01/architecture.pdf,41927,ece4d3a5d2a769528c6cbd74161a3797bcbca50480fb14c992f7faf7b780a59b
+project-01,Creative campaign,kits/project-01/architecture.png,66660,a29b7b9232aa361979980829355caeb002c47b4c28c3c2514cf30014d0665968
+project-01,Creative campaign,kits/project-01/architecture.svg,7977,77ac92cf2caaf9b681b4cd517ab6365b0b7621119620bd4635006ef8c861266a
+project-01,Creative campaign,kits/project-01/design.pdf,40917,47d3bc9524c2d3ce2ed9166d2e804962fa0da20870a5923458cc63281db9770e
+project-01,Creative campaign,kits/project-01/design.png,39019,f60cc11b86e2360efc2645ad32df1969c62f2353985ccd2eb1e92f11915f60d3
+project-01,Creative campaign,kits/project-01/design.svg,3823,94e1802cace28aab79ab5814a5d7c5b8640a3500fb3866dcda2331e7705c7c40
+project-01,Creative campaign,kits/project-01/guide.docx,18599,ac3bc3b2207ebf154e3fff64412ad7bd2207bdcbf8c4aaa10ab1dc0696fa34c6
+project-01,Creative campaign,kits/project-01/guide.md,10947,b35951f83e4a63dfe2895d846d5484130b88bd99fad3bf3562bd00879c5552bf
+project-01,Creative campaign,kits/project-01/guide.pdf,176343,fe1de8acb1d2726d2bf21791767f6c8e5d538ce952bb00e4f669c59d7049c995
+project-01,Creative campaign,kits/project-01/practice.csv,379,c8c6ad0e1d1a21ac4a9d9eab6a446872a761faf99d189acc5d93bd4f4a2dd8ae
+project-01,Creative campaign,kits/project-01/process.excalidraw,16064,f3db441a2040d9a3d7a24ccd5f1ca8c48195b9325c8265b24616e60f73a8d5a5
+project-01,Creative campaign,kits/project-01/process.pdf,41278,893226e8d4ccf18473f5d50dda11f778629aa1e077ea7003d49e7c670973ee64
+project-01,Creative campaign,kits/project-01/process.png,39778,3b653603b91196d398462bf473364a59ab1e179558e1c3990081b217f67c52dc
+project-01,Creative campaign,kits/project-01/process.svg,4143,5055557e3f379dde3fb919676381d381040a546adcda859a8f540ad93550d1fd
+project-01,Creative campaign,kits/project-01/roadmap.csv,1513,bc5f97549931feb0d7a1f63f97716c6e9bd2654c5358e6a2c21132fc120b2434
+project-01,Creative campaign,kits/project-01/slides.pdf,209273,928484474627982f2f5130dbb571bfe213acf011631121f2c674cd51d18e0675
+project-01,Creative campaign,kits/project-01/slides.pptx,216938,2753a6aa9ece5a6653a5c732d0d37a68dc45d6269f8dfec76a2cd7e3d6038d30
+project-01,Creative campaign,kits/project-01/workbook.xlsx,18762,57b19d42052dfce815de0d9179110fe931d80cb4260fe6bce13e737695377446
+project-02,Small business application,kits/project-02/acceptance-tests.csv,958,2ddb1fe7e63fb06eaf4e5b09fda67e2b8d734ddb0b38d520addad137ccc85927
+project-02,Small business application,kits/project-02/architecture.excalidraw,31006,6b6df1334a45e6d84197eec6c38cf035270a4de583fed3ebb96211c5493f12f4
+project-02,Small business application,kits/project-02/architecture.pdf,41917,cabea542db4ab966ab50bd74690bf401d35d39365339ba05d57cab7d78bc4bec
+project-02,Small business application,kits/project-02/architecture.png,66652,9f03c1e7a2c6fda75f5595fe8c41fd3b12bde88c71a2132799b8d8113f4b2791
+project-02,Small business application,kits/project-02/architecture.svg,8013,edf96c98804d2db499caaf45f1b40f641158e70d396b58f0e2c597cfcd5702d2
+project-02,Small business application,kits/project-02/design.pdf,40922,74edc83c84ec000fd216ba6a20d66164d829d20c5229ca6bc4831d1fcf5377f9
+project-02,Small business application,kits/project-02/design.png,41175,7856b5dc18d6f6e6e73936b504c3a2a2c95377ba46a0a7b2a36d39e670cf4c58
+project-02,Small business application,kits/project-02/design.svg,3860,dd49a0ffa28dc34efd6f5fd2c0d5e3f0b4c121435b583a9a3c0da74f4c5ce1b5
+project-02,Small business application,kits/project-02/guide.docx,18492,b6b420311aa799b014b9157c5991fc415e8c4871acfad4ee7c89b415f38ada23
+project-02,Small business application,kits/project-02/guide.md,10766,a9923240538c482f4c6a59d0de9b15f98d8987ecd1b76e27604bf068185eeea4
+project-02,Small business application,kits/project-02/guide.pdf,176584,43f94fb0a0f5f3b25b8f5ce346d8e840d77e7a487c2bd71d42d6db6b11b31d97
+project-02,Small business application,kits/project-02/practice.csv,420,c4b55351b107d9ff457e30067095b699d439618f90855715a283c8fa01d05ae8
+project-02,Small business application,kits/project-02/process.excalidraw,16062,104c0d9316b5b66d6b9650b9e1f72c8c80fc19c084d8a6b49d9755319172c8bc
+project-02,Small business application,kits/project-02/process.pdf,41274,218fa747e68ca04b412084d13b6c9358a45e33ae6ba07a75b76bec70869f9f6f
+project-02,Small business application,kits/project-02/process.png,39145,604d4de90837b4ba0b35b4ca74fd5399c08df4dc026af3053343364e19129de4
+project-02,Small business application,kits/project-02/process.svg,4141,9a118afd100e439289e6af96e919a81e08adf9bd860df7b3ca127cc8dd0f81ba
+project-02,Small business application,kits/project-02/roadmap.csv,1576,a199a642a49a585873a188f6a3be8fe50ce9561f32ecc4e5dc6f332c9f28383b
+project-02,Small business application,kits/project-02/slides.pdf,209324,55f2baa5a6187e3291537bc87bd00697a5bd4cbd974c5746513012a9f38a1aa1
+project-02,Small business application,kits/project-02/slides.pptx,216981,7ba4dbb2a27e480b2164de0b2f1534c5babb24a3069ae742abb6a9f8c5cfb8c0
+project-02,Small business application,kits/project-02/workbook.xlsx,18737,f61ea832ea5e83e9ccbc9cc94b223d34d9cbc37a9174d464b5861e8110fa25f1
+project-03,Bounded voice concierge,kits/project-03/acceptance-tests.csv,1681,e803f6e29a871a7d13ffc6a045a6dcf9dfdd4b8b3213ae0b8ffc482febe9ccdc
+project-03,Bounded voice concierge,kits/project-03/architecture.excalidraw,27926,8403047d61b31b3b11723ec4fedd4e2548431d029767deda40cdb41e883af78d
+project-03,Bounded voice concierge,kits/project-03/architecture.pdf,41851,e19baaa3a454f171e914ae694b4ba8709fc28043713d7a5c5eebedec06dc7d50
+project-03,Bounded voice concierge,kits/project-03/architecture.png,62479,9e4384fb289560292d5edd16d11ef7f0750bdbbb0e8759a1b412f67e663c2b0a
+project-03,Bounded voice concierge,kits/project-03/architecture.svg,7520,6830028df529f469336ab92a8e5d2e656c20de5b0ca28ad8da7b63242d92641d
+project-03,Bounded voice concierge,kits/project-03/design.pdf,40945,b9eee7b7b477715acedf902596d8a8b1b23bd8dbc8f4e5feafb26137b7f978b1
+project-03,Bounded voice concierge,kits/project-03/design.png,38886,16bf27645899a0bc450de42cecad503e504efa8bcfec35bea6d795429c74c32f
+project-03,Bounded voice concierge,kits/project-03/design.svg,3850,11425c730524a42f0d17ab5e17de9fc9c72d3f1a6762b9d356cf7ed25a10506f
+project-03,Bounded voice concierge,kits/project-03/guide.docx,18909,cff4166b8d3335f2a9cd62318bcac696574519d2881bf5d7c67ec4f24d941769
+project-03,Bounded voice concierge,kits/project-03/guide.md,11230,a4eb7f8bafc83a08486f80aead60ad8c1f318b14c472d3736fd83a56e5b01b8c
+project-03,Bounded voice concierge,kits/project-03/guide.pdf,179094,23def4d23e6438817c87df9740aae8fc7e58ce42cf20c80313f6e166a5b8f555
+project-03,Bounded voice concierge,kits/project-03/practice.csv,347,882e9248e81441259658d56ab472be57880b94d5f2e22573da9fe61b50dd12f4
+project-03,Bounded voice concierge,kits/project-03/process.excalidraw,16083,11a54705a8cb715678f2dd283f6dcf968903ef11b17d8bfdaba632a4ad6d3f13
+project-03,Bounded voice concierge,kits/project-03/process.pdf,41281,8be37e7eae7aae52312024c2616b5509af16871f3c144170710cfd62201d6142
+project-03,Bounded voice concierge,kits/project-03/process.png,41869,470c08535d562a7f52d83a82e715d8af14590eed90558dc0ecc5bf2450c1aa00
+project-03,Bounded voice concierge,kits/project-03/process.svg,4276,2f7e78ba8cf2833b1340c91a0f20e3e12fa883b35f98654d32453a9ac4ce3f30
+project-03,Bounded voice concierge,kits/project-03/roadmap.csv,1516,1583112c29cc76703c865dec20242643fed0f4260f712b2f9d30dba989d7994f
+project-03,Bounded voice concierge,kits/project-03/slides.pdf,209160,80451a7e598890985c2852734c9f3b9d4f88a818921730a0c61d4e92327a37c1
+project-03,Bounded voice concierge,kits/project-03/slides.pptx,216685,c8ff8c13a6ff0df6f4102d04e365bbae165d75c2eed6f34eac462df6c91b728a
+project-03,Bounded voice concierge,kits/project-03/workbook.xlsx,19360,3b8c05320142e9f9b7082a469072770bb5235d12e77ec5c16df193a2fec38542
+project-04,Professional knowledge portal,kits/project-04/acceptance-tests.csv,1675,0cfc11660c6dde31c06239991569aab49e1581a7c498611ae26eee79289947e1
+project-04,Professional knowledge portal,kits/project-04/architecture.excalidraw,30869,d760dcebfd315d0e0499366bbb0ff0aefc5b25053db277a29393da6992cf3bfe
+project-04,Professional knowledge portal,kits/project-04/architecture.pdf,41912,1d7e31d59e75078774c3b6fc96f975c0578676346b43ca2a22e75a5cf01b7427
+project-04,Professional knowledge portal,kits/project-04/architecture.png,67305,d09c53e60c517c7400f3f9e92a0f9d90c08867f830755a5c4bdde59763a71a9b
+project-04,Professional knowledge portal,kits/project-04/architecture.svg,7851,b0526bcd2acca23aa9aa9121dae806b0a8a16642a20df2c6c1e399169eb47968
+project-04,Professional knowledge portal,kits/project-04/design.pdf,40926,531786ea3cffba5cdbbfe432de996f48f45800e656531175b1bfae8498d23e6b
+project-04,Professional knowledge portal,kits/project-04/design.png,40190,b9b3da369c26f0ae97cdc9e3ba633e1302425fb77d12a879bae1f78f94e95ac6
+project-04,Professional knowledge portal,kits/project-04/design.svg,3841,bfd3859eefa0e8f17c940dfc97bcc15e757ed1db72ec020ccd4080b48a2b5697
+project-04,Professional knowledge portal,kits/project-04/guide.docx,18917,fa2ab949fb2bc54b63caa379ffe734a958040bd4584745b4b047a3a2729b3166
+project-04,Professional knowledge portal,kits/project-04/guide.md,11192,e97092803ee7b94c9da62f3a87208e4f62dc775faa49242f3ba6d1656d6109a6
+project-04,Professional knowledge portal,kits/project-04/guide.pdf,178905,1e8f453eca5170b7f029269d5dab6e1cc6695137482335ae148b75a377734f90
+project-04,Professional knowledge portal,kits/project-04/practice.csv,404,77ef6902ff7621e24b0b8af551b7d829c387969e0d08a711acdb630a21d33075
+project-04,Professional knowledge portal,kits/project-04/process.excalidraw,16094,8672f341d9899eacecf3ff4637a193e5d7e3ea22d6c7594b85694730b1e1bf8e
+project-04,Professional knowledge portal,kits/project-04/process.pdf,41278,8f01f3acbdea4d4cd1fa22d144edfcea42d9297b89af8146af620437d7b18c4b
+project-04,Professional knowledge portal,kits/project-04/process.png,40621,ac93e70b2e0f8d888d07727dbf65d8d49f34ca61f34160632e5d9eba99a04740
+project-04,Professional knowledge portal,kits/project-04/process.svg,4173,5dc020e0cd60b69c196cc7e50ec0dbc55c05a614bef8f48be3bb7ffd5c25d4be
+project-04,Professional knowledge portal,kits/project-04/roadmap.csv,1483,6af394ba24c3dd1c5a9af5a2a47757beff00150005730e98be81cf74ad44151f
+project-04,Professional knowledge portal,kits/project-04/slides.pdf,209050,52ad7325fee64d0661c024500a1d80500894636f8f891c23374b2a07b3db4051
+project-04,Professional knowledge portal,kits/project-04/slides.pptx,216478,e81f4288ab8e8f6cc209c23c4d4ec944275352d6e5068009154ea6a78a45334d
+project-04,Professional knowledge portal,kits/project-04/workbook.xlsx,19288,4ddeec5ad28bcbea40bad6bef7739a009947b6d2deaa9aea4b8859e7b86171aa
+project-05,Approval-based operations automation,kits/project-05/acceptance-tests.csv,939,422081f4d16a65697d9e215570c439dcdd750fee0162a46ddc1de3c7a093663c
+project-05,Approval-based operations automation,kits/project-05/architecture.excalidraw,30880,7123da1ab3e68d6ad02bb620b4c1f5f5cd1ed1c98da6c0a669671fc2f0a9a624
+project-05,Approval-based operations automation,kits/project-05/architecture.pdf,41940,c0392a43803da685644e5bf40e0b84f89cc31082131fb6e0273d13b407776d90
+project-05,Approval-based operations automation,kits/project-05/architecture.png,68231,43e503ab44500b94634268a92e43100baebfe1e7d036599d9a1b664d4ecf24db
+project-05,Approval-based operations automation,kits/project-05/architecture.svg,7976,54706cfee40071a9f79402f8b55b23c1d8c3b8812259cc122350dde9e8d20e98
+project-05,Approval-based operations automation,kits/project-05/design.pdf,40917,f5d1e3fc1b35f5548d9196bde0fdaeb4ee0996d094c7224acc6dcd6651556410
+project-05,Approval-based operations automation,kits/project-05/design.png,39767,511db6bf7b04b0c54d6efa6fedc6cfdbf0c90dce83db57e17abf26c9c2887d82
+project-05,Approval-based operations automation,kits/project-05/design.svg,3848,caaa4d963db51bc48930ce14f6c18a2019097e381cad46309891571951c6bcdb
+project-05,Approval-based operations automation,kits/project-05/guide.docx,18198,dffd259d255ec24db4a1513945d957f7cb87852de0aa1f1a22545488cfb6d317
+project-05,Approval-based operations automation,kits/project-05/guide.md,10266,88d61768742fb7421c0b3e6296b9700715056b82a8314a56db1f5864b20d615e
+project-05,Approval-based operations automation,kits/project-05/guide.pdf,174870,0c5ba5d0277ff1b10427048f9dc78f7ed8de5cdb792ed32a463cefd8230098cc
+project-05,Approval-based operations automation,kits/project-05/practice.csv,370,19fee9eb6621230f7fcfcf66570ad5e072370e979616d9f0099a62118286e34a
+project-05,Approval-based operations automation,kits/project-05/process.excalidraw,16082,cdd276ad62d89962d5ecebd85bb14c6c6e179822bc702e9d93f395171f9ca103
+project-05,Approval-based operations automation,kits/project-05/process.pdf,41263,055bffb9b26f48660062459e6d5ad9da2ecc53327cbbaaa2dc41e5460dccb5d0
+project-05,Approval-based operations automation,kits/project-05/process.png,38996,2066443622e2f8ffd8dfe17c239d4dfd1df3992b79602998e362608196a1adcb
+project-05,Approval-based operations automation,kits/project-05/process.svg,4161,c1c84b5018b9dfe3696db75c3585e04c5dc36315da7dba672a58ca5ef40d89fa
+project-05,Approval-based operations automation,kits/project-05/roadmap.csv,1518,ba61793a757c7370e85f7adcf66fb6b44c5b5d7b9307f55cc8e913765bf9e89d
+project-05,Approval-based operations automation,kits/project-05/slides.pdf,208882,9ecccbd281af2d9a39fd4ecc2635a27a6c74f700c98659a032505873cf3a17bf
+project-05,Approval-based operations automation,kits/project-05/slides.pptx,216379,38fcbd1b375fbd289025bc3d04f20728d93a8ff668cf15a62d113cce38e87f69
+project-05,Approval-based operations automation,kits/project-05/workbook.xlsx,18617,87382f14d9ab9e5ef54a704898727c39e3f9e47a47eb51c64cc0ba7ae6644781
+project-06,Integrated creator delivery portal,kits/project-06/acceptance-tests.csv,1326,f17d1cd04f8aaa079dd2e298c018fdd155da703620411714f9ebfb0da0272ba1
+project-06,Integrated creator delivery portal,kits/project-06/architecture.excalidraw,31129,b785e2abd3bd8dd1dc07aa1b0ba7215ed807b3052566a2eec5fa19a3bdabeb8b
+project-06,Integrated creator delivery portal,kits/project-06/architecture.pdf,42034,1363dbd38e759f74ef73dce90b74a312ff6ef387db9122b304edcefa1ca3364f
+project-06,Integrated creator delivery portal,kits/project-06/architecture.png,70317,083ef446fed1b0d3fd619eed33448aac17d3ecc8c0d116e665607f45b77f44df
+project-06,Integrated creator delivery portal,kits/project-06/architecture.svg,8306,dcd61ee443d25a002859d90d93f712ba132c36bb75d6f9a689864586eaa3e2b4
+project-06,Integrated creator delivery portal,kits/project-06/design.pdf,40954,d7dcd7b87144245e2d201174988fa498d8c76a41d917817b57d9a57c9d1a78f6
+project-06,Integrated creator delivery portal,kits/project-06/design.png,42393,f7852050068e171543ce5e22db04d97323a9350383df5015239fb0352e8fb3f8
+project-06,Integrated creator delivery portal,kits/project-06/design.svg,3892,bc0bf7350b2848b36a10e692f04ff63be616d3905310e6fe913390e55ae25db0
+project-06,Integrated creator delivery portal,kits/project-06/guide.docx,19057,9053b7614b97843d63546b5765bedd5a55256242869d3a2a02399499be253195
+project-06,Integrated creator delivery portal,kits/project-06/guide.md,11783,7cbec30eedf3535f205fe72fa9e3eec380807677535fe940966a2f7da8030c92
+project-06,Integrated creator delivery portal,kits/project-06/guide.pdf,180041,61a8edf1266eb31aa99b6c1bd36ba06d396a38e1b8c6efe1ff1658c8e2b7941e
+project-06,Integrated creator delivery portal,kits/project-06/practice.csv,494,549b8bfc5d8e5dabba5b85cc75c3295c4f19d15af606e4cffd0af08dec8c6cec
+project-06,Integrated creator delivery portal,kits/project-06/process.excalidraw,16110,690c4aded8baa413ad8431cd4a95ab611efbc4c0841586d0a85967cef37d1851
+project-06,Integrated creator delivery portal,kits/project-06/process.pdf,41273,3bbc6edc10381260a244f3baf79ba81cad6571568f18a41cc72c6c23dd5aff0e
+project-06,Integrated creator delivery portal,kits/project-06/process.png,39794,3ef1f977353c42692613f2f7b10cfff1dd37c0f667ba6d52020c48cf6bb6a1e1
+project-06,Integrated creator delivery portal,kits/project-06/process.svg,4189,bfb62a2b66e154df7764af958bd4cc701c6e31063d85522506427884964709ad
+project-06,Integrated creator delivery portal,kits/project-06/roadmap.csv,1603,28ba7d4ce02a1cf48488fcc2f2b33440230c69a846091e46c6824374f83fa7e3
+project-06,Integrated creator delivery portal,kits/project-06/slides.pdf,209489,6f43e8fd549dfa6af593a90470c0cbed16053a34e1b99e318aff06c8776b3954
+project-06,Integrated creator delivery portal,kits/project-06/slides.pptx,217248,41991562fb1b70e2116a9032ff48803af930aa315fbedf3639952823cd423dd0
+project-06,Integrated creator delivery portal,kits/project-06/workbook.xlsx,19153,8a9dd75cb8195de1d91c4cf2c5db44c5fa54001210f8b1900f66119830774da7

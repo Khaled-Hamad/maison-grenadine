@@ -1,0 +1,9 @@
+﻿Case,Expected check,Manual / source baseline
+1,Preserve an event date,Match card A exactly
+2,Unknown venue,Say unconfirmed
+3,Preserve a price,15 USD remains 15 USD
+4,No certification promise,Preserve educational limit
+5,Summarise two known facts,No extra facts
+6,Contradictory inputs,Flag conflict; do not guess
+7,Unsupported claim,Ask for evidence or qualify
+8,Compute 12 + 8,20 via calculator

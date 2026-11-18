@@ -1,0 +1,17 @@
+﻿Case,Input / condition,Expected outcome,Actual evidence,Status
+Journey,Brief through V2 client approval,Complete traceable single-client flow,,Unrun
+Access,Different organisation requests project,Backend denies access,,Unrun
+Role,Client calls operator-only action,Denied,,Unrun
+Secret,Inspect browser and repository,No provider credentials exposed,,Unrun
+Job accepted,Provider returns ID only,"Queued/running, not delivered",,Unrun
+Job failure,Provider terminal error,Failed state visible; no fake asset,,Unrun
+Callback,Invalid callback authentication,Rejected according to provider mechanism,,Unrun
+Duplicate,Same event delivered twice,No duplicate processing or paid job,,Unrun
+URL,Unapproved arbitrary URL submitted,Rejected by input/network restrictions,,Unrun
+Budget,Generation ceiling reached,No unapproved further spend,,Unrun
+Version,Asset changes after client approval,New version requires fresh review,,Unrun
+Rights,Asset use not cleared,Blocked from release,,Unrun
+Cancel,Operator cancels pending job,Truthful state and documented provider billing limits,,Unrun
+Recovery,Rollback/restore in staging,Known working state recovered,,Unrun
+Deletion,Approved deletion request,Access revoked and retention process followed,,Unrun
+Usability,Keyboard-only client review,Essential flow accessible,,Unrun

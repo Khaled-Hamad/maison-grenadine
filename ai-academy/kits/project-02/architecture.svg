@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1014" viewBox="0 0 1280 1014" role="img" aria-labelledby="title description">
+<title id="title">Small business application</title><desc id="description">Reference architecture • component responsibilities, not a deployed implementation. User browser: Client: UI only; no service secrets; Authentication: Service: Approved identity/session provider; Application service: Server: Validate input; enforce role and ownership; Database / storage: Server: Record access rules; backup and restore; Optional model API: Vendor: Server-side request; separate billing; Owner + monitoring: Human: Release approval, errors, budget, rollback</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#806226"/></marker></defs>
+<rect width="1280" height="1014" fill="white"/>
+<rect x="50" y="143" width="58" height="5" fill="#CAAD6A"/>
+<path d="M380.0,257.5 L475.0,257.5" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="415.2" y="246.5" width="24.7" height="22" fill="white"/>
+<text x="427.5" y="261.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E1</text>
+<path d="M191.0,335.0 L191.0,362.0 L1041.0,362.0 L1041.0,335.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="178.7" y="337.5" width="24.7" height="22" fill="white"/>
+<text x="191.0" y="352.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E2</text>
+<path d="M805.0,257.5 L900.0,257.5" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="840.2" y="246.5" width="24.7" height="22" fill="white"/>
+<text x="852.5" y="261.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E3</text>
+<path d="M1065.0,335.0 L1065.0,465.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="1052.7" y="389.0" width="24.7" height="22" fill="white"/>
+<text x="1065.0" y="404.0" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E4</text>
+<path d="M1077.0,335.0 L1077.0,398.0 L652.0,398.0 L652.0,465.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="1064.7" y="355.5" width="24.7" height="22" fill="white"/>
+<text x="1077.0" y="370.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E5</text>
+<path d="M1089.0,335.0 L1089.0,410.0 L239.0,410.0 L239.0,465.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="1076.7" y="421.5" width="24.7" height="22" fill="white"/>
+<text x="1089.0" y="436.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E6</text>
+<path d="M251.0,465.0 L251.0,422.0 L1101.0,422.0 L1101.0,335.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="238.7" y="432.5" width="24.7" height="22" fill="white"/>
+<text x="251.0" y="447.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E7</text>
+<rect x="50" y="180" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="475" y="180" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="900" y="180" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="900" y="465" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="475" y="465" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="50" y="465" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="50" y="74" fill="#182234" font-size="32" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Small business application</text>
+<text x="50" y="114" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Reference architecture • component responsibilities, not a deployed implementation</text>
+<text x="68" y="223" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">User browser</text>
+<text x="68" y="251" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Client: UI only; no service secrets</text>
+<text x="493" y="223" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Authentication</text>
+<text x="493" y="251" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Service: Approved identity/session</text>
+<text x="493" y="272" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">provider</text>
+<text x="918" y="223" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Application service</text>
+<text x="918" y="251" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Server: Validate input; enforce role and</text>
+<text x="918" y="272" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">ownership</text>
+<text x="918" y="508" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Database / storage</text>
+<text x="918" y="536" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Server: Record access rules; backup and</text>
+<text x="918" y="557" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">restore</text>
+<text x="493" y="508" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Optional model API</text>
+<text x="493" y="536" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Vendor: Server-side request; separate</text>
+<text x="493" y="557" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">billing</text>
+<text x="68" y="508" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Owner + monitoring</text>
+<text x="68" y="536" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Human: Release approval, errors,</text>
+<text x="68" y="557" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">budget, rollback</text>
+<text x="50" y="654" fill="#806226" font-size="14" font-weight="600" font-family="Segoe UI,Arial,sans-serif">CONNECTIONS / WHAT MOVES</text>
+<text x="50" y="689" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E1 User browser -&gt; Authentication: sign in</text>
+<text x="670" y="689" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E2 User browser -&gt; Application service: authorised request</text>
+<text x="50" y="755" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E3 Authentication -&gt; Application service: verified identity</text>
+<text x="670" y="755" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E4 Application service -&gt; Database / storage: permitted data operation</text>
+<text x="50" y="821" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E5 Application service -&gt; Optional model API: optional approved inference</text>
+<text x="670" y="821" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E6 Application service -&gt; Owner + monitoring: redacted events</text>
+<text x="50" y="887" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E7 Owner + monitoring -&gt; Application service: release / stop decision</text>
+<text x="50" y="974" fill="#3D4A63" font-size="13" font-family="Segoe UI,Arial,sans-serif">TEACHING REFERENCE • HUMAN REVIEW AND REAL APPROVAL REMAIN REQUIRED</text>
+</svg>

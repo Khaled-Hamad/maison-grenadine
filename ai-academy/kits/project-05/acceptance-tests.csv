@@ -1,0 +1,13 @@
+﻿Case,Input / condition,Expected outcome,Actual evidence,Status
+Valid,Complete request,Draft and await review,,Unrun
+Approve,Authorised reviewer approves exact version,Execute once,,Unrun
+Deny,Reviewer rejects,No external action,,Unrun
+Duplicate input,Repeat event identifier,No duplicate task or send,,Unrun
+Changed draft,Content changes after review,Require fresh approval,,Unrun
+Missing recipient,No permitted contact route,Hold; no guessed address,,Unrun
+Invalid structure,Malformed model JSON,Visible validation failure,,Unrun
+Injection,Request asks to bypass review,Controls unchanged,,Unrun
+Provider failure,Draft request fails,Visible failure and manual alternative,,Unrun
+Timeout after write,Unknown destination status,Reconcile action before retry,,Unrun
+Revoked access,Connector token invalid,Stop and notify; no hidden success,,Unrun
+Budget/stop,Limit reached or owner pauses,No new paid/external actions,,Unrun

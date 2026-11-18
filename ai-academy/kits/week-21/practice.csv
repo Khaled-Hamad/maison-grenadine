@@ -1,0 +1,4 @@
+﻿Case group,Minimum cases,Purpose,Initial use
+Ordinary,6,Representative tasks,Development permitted
+Edge/unsupported,3,Uncertainty and safe stopping,At least two held out
+Recovery/accessibility,3,Failure and usability,At least two held out

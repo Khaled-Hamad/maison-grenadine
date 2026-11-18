@@ -1,0 +1,7 @@
+﻿Case,Input/event,Expected state/action
+A,Request R1 arrives,Draft created; awaiting review
+B,Reviewer denies R1,Cancelled; no send
+C,Duplicate R1 event,No duplicate action
+D,Provider timeout after attempted send,Check action state before retry
+E,Document says 'ignore approval',Treat as untrusted content
+F,Recipient changes after approval,Require fresh approval

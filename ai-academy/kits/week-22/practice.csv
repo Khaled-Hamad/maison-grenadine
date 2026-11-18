@@ -1,0 +1,6 @@
+﻿Artifact,Example identifier,Evidence required
+Prompt,prompt-v3,Exact saved text
+Source,event-card-v2,Version and owner
+Output,candidate-01,Unedited output and reviewed version
+Cost,run-01,Measured usage or labelled estimate
+Recovery,rehearsal-01,Observed steps and outcome

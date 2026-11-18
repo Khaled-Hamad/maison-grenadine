@@ -1,0 +1,11 @@
+﻿ID,Contains 'free',Contains 'invoice',Known class,Split
+T1,Yes,No,Promotional,Train
+T2,No,Yes,Work,Train
+T3,Yes,No,Promotional,Train
+T4,No,No,Work,Train
+V1,Yes,Yes,Work,Development
+V2,No,No,Promotional,Development
+H1,Yes,No,Work,Held out
+H2,No,Yes,Work,Held out
+H3,Yes,No,Promotional,Held out
+H4,No,No,Promotional,Held out

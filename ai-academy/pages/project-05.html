@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en-GB" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Put a request-to-draft workflow into service without allowing the model to authorise its own actions."><meta name="color-scheme" content="light">
+<title>Approval-based operations automation | AI in practice</title><link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script></head><body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header"><div class="container header-row">
+      <a class="brand" href="../index.html" aria-label="Khaled Hamad AI programme home"><img src="../assets/logo-navy.png" width="216" alt="Khaled Hamad"></a>
+      <span class="brand-divider" aria-hidden="true"></span><span class="brand-label">AI / PROFESSIONAL PRACTICE</span>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="../index.html#curriculum">Course map</a><a href="../index.html#projects">Projects</a>
+        <a href="../index.html#process">The process</a><a href="../index.html#library">Library</a>
+      </nav>
+    </div></header>
+    <main id="main" tabindex="-1" class="detail-main container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Programme</a><span aria-hidden="true">/</span><span>Project kit</span></nav>
+      <div class="print-brand"><img src="../assets/logo-navy.png" width="210" alt="Khaled Hamad"></div>
+      <section class="detail-hero"><p class="eyebrow">PROJECT KIT / TEACHING DRAFT</p><h1>Approval-based operations automation</h1><p class="hero-lead">Put a request-to-draft workflow into service without allowing the model to authorise its own actions.</p><div class="actions"><a class="button primary" href="../kits/project-05/project-05-kit.zip" download>Download the complete kit ↓</a><button class="button secondary print-button" type="button">Print / save page as PDF</button></div><p id="storage-notice" class="storage-notice" role="status"></p></section>
+      <div class="detail-layout"><article class="reading">
+<p><strong>Status:</strong> instructional production plan and editable templates. This package does not claim that a live application, paid media generation or client deployment has been completed.</p>
+<p><strong>Audience:</strong> Administrative, content, support and small-business teams.</p>
+<p><strong>Stack:</strong> n8n or approved equivalent, Claude or Gemini integration, Approved connectors, Optional Claude Code.</p>
+<p><strong>Schedule:</strong> Reuse Weeks 13-14, then approximately 48 studio/capstone hours. Prefer managed or institution-approved infrastructure for beginners.</p>
+<h2 id="outcomes">Outcomes</h2>
+<ul>
+<li>Map a manual process and permission scope.</li>
+<li>Validate structured outputs before action.</li>
+<li>Enforce exact-action human approval and deduplication.</li>
+<li>Operate with visible failures, limits and a manual fallback.</li>
+</ul>
+<h2 id="design-rationale">Design rationale</h2>
+<h3 id="narrow-workflow">Narrow workflow</h3>
+<p>An incoming permitted request becomes a categorised draft response and a task record. A human approves every external message. Begin with a test form or sandbox, not a real inbox full of personal data. Model-generated fields are untrusted until validated.</p>
+<h3 id="approval-and-action-state">Approval and action state</h3>
+<p>Show the reviewer the exact recipient, content and action. Denial prevents execution. A changed action requires fresh review. Assign stable event/action identifiers and check state before retrying an external write. A timeout does not establish that a previous send did not happen.</p>
+<h3 id="operable-automation">Operable automation</h3>
+<p>Bound retries, rate, execution duration and cost. Surface failures to an accountable person and permit manual completion. Managed infrastructure may reduce setup burden; self-hosting adds patching, access, backup and uptime responsibilities. Prompt instructions cannot replace workflow-level controls.</p>
+<h2 id="supplied-fictional-starting-brief-or-data-contract">Supplied fictional starting brief or data contract</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Request ID</th>
+<th>Input</th>
+<th>Expected path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E01</td>
+<td>R1</td>
+<td>Valid public information request</td>
+<td>Draft, then await review</td>
+</tr>
+<tr>
+<td>E02</td>
+<td>R1</td>
+<td>Duplicate of E01</td>
+<td>Do not duplicate task or send</td>
+</tr>
+<tr>
+<td>E03</td>
+<td>R2</td>
+<td>Missing contact route</td>
+<td>Ask/hold; do not invent recipient</td>
+</tr>
+<tr>
+<td>E04</td>
+<td>R3</td>
+<td>Source says bypass approval</td>
+<td>Ignore injected instruction; review remains</td>
+</tr>
+<tr>
+<td>E05</td>
+<td>R4</td>
+<td>Provider unavailable</td>
+<td>Visible failure; manual fallback</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="worked-vertical-slice">Worked vertical slice</h2>
+<p>R1 is drafted and denied. It must not be sent even if a duplicate input event arrives later. A reviewer-approved message sent just before a network timeout must be reconciled using action state before any retry. The correct result can be an escalation, not another automatic attempt.</p>
+<h2 id="from-scratch-to-production">From scratch to production</h2>
+<h3 id="1-discover">1. Discover</h3>
+<p>time the existing manual process and identify request categories and exception cases.</p>
+<h3 id="2-scope">2. Scope</h3>
+<p>select one source, one draft output and one human approval route; document minimum permissions.</p>
+<h3 id="3-prepare">3. Prepare</h3>
+<p>create fictional requests, required field schema, stable identifiers and expected test outcomes.</p>
+<h3 id="4-build">4. Build</h3>
+<p>configure validation, drafting, exact-action review, deduplication, bounded retries and error notifications.</p>
+<h3 id="5-evaluate">5. Evaluate</h3>
+<p>test approvals, denials, duplicate events, missing fields, injection, revoked access, outage and cost stops.</p>
+<h3 id="6-release">6. Release</h3>
+<p>connect a limited owner-approved real input source without removing approval controls.</p>
+<h3 id="7-operate">7. Operate</h3>
+<p>observe seven days, compare time and failures with manual work and correct issues.</p>
+<h3 id="8-hand-over">8. Hand over</h3>
+<p>document connector ownership, retention, manual recovery, budget and shutdown.</p>
+<h2 id="architecture-and-responsibility-boundaries">Architecture and responsibility boundaries</h2>
+<p>The supplied architecture.svg, architecture.pdf and editable architecture.excalidraw describe a <strong>reference design, not an implemented service</strong>.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Boundary</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Permitted source</td>
+<td>External</td>
+<td>Approved form/email connector</td>
+</tr>
+<tr>
+<td>Workflow engine</td>
+<td>Server</td>
+<td>Validation, deduplication, state and bounded retries</td>
+</tr>
+<tr>
+<td>Model service</td>
+<td>Vendor</td>
+<td>Draft only; minimum permitted input</td>
+</tr>
+<tr>
+<td>Human reviewer</td>
+<td>Human</td>
+<td>Approves exact recipient/content/action</td>
+</tr>
+<tr>
+<td>Destination</td>
+<td>External</td>
+<td>Task record or approved external message</td>
+</tr>
+<tr>
+<td>Operations owner</td>
+<td>Human</td>
+<td>Errors, spend, retention and stop control</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="screen-or-production-design">Screen or production design</h2>
+<h3 id="intake">Intake</h3>
+<ul>
+<li>Request ID</li>
+<li>Required fields</li>
+<li>Permitted content</li>
+<li>Duplicate state</li>
+</ul>
+<h3 id="review">Review</h3>
+<ul>
+<li>Exact recipient</li>
+<li>Exact message</li>
+<li>Approve / deny</li>
+<li>No default approval</li>
+</ul>
+<h3 id="operations">Operations</h3>
+<ul>
+<li>Sent / cancelled / error</li>
+<li>Action identifier</li>
+<li>Manual recovery</li>
+<li>Pause workflow</li>
+</ul>
+<h2 id="acceptance-and-failure-tests">Acceptance and failure tests</h2>
+<p>Run every applicable test and retain evidence. A blank or unrun test is not a pass. Hold back at least four relevant cases during initial development; using one to fix the system makes it development data. Use new cases for later independent claims.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Input or condition</th>
+<th>Expected outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Valid</td>
+<td>Complete request</td>
+<td>Draft and await review</td>
+</tr>
+<tr>
+<td>Approve</td>
+<td>Authorised reviewer approves exact version</td>
+<td>Execute once</td>
+</tr>
+<tr>
+<td>Deny</td>
+<td>Reviewer rejects</td>
+<td>No external action</td>
+</tr>
+<tr>
+<td>Duplicate input</td>
+<td>Repeat event identifier</td>
+<td>No duplicate task or send</td>
+</tr>
+<tr>
+<td>Changed draft</td>
+<td>Content changes after review</td>
+<td>Require fresh approval</td>
+</tr>
+<tr>
+<td>Missing recipient</td>
+<td>No permitted contact route</td>
+<td>Hold; no guessed address</td>
+</tr>
+<tr>
+<td>Invalid structure</td>
+<td>Malformed model JSON</td>
+<td>Visible validation failure</td>
+</tr>
+<tr>
+<td>Injection</td>
+<td>Request asks to bypass review</td>
+<td>Controls unchanged</td>
+</tr>
+<tr>
+<td>Provider failure</td>
+<td>Draft request fails</td>
+<td>Visible failure and manual alternative</td>
+</tr>
+<tr>
+<td>Timeout after write</td>
+<td>Unknown destination status</td>
+<td>Reconcile action before retry</td>
+</tr>
+<tr>
+<td>Revoked access</td>
+<td>Connector token invalid</td>
+<td>Stop and notify; no hidden success</td>
+</tr>
+<tr>
+<td>Budget/stop</td>
+<td>Limit reached or owner pauses</td>
+<td>No new paid/external actions</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="release-gates">Release gates</h2>
+<ul>
+<li>Owner and intended real audience identified; exact release version approved.</li>
+<li>Required data, source, voice, likeness, reference and commercial-use permissions recorded.</li>
+<li>All applicable acceptance tests run with evidence; critical issues resolved.</li>
+<li>Backend access, secrets and action approvals tested where software is involved.</li>
+<li>Budget, alerts and a practical stop mechanism agreed; provider billing limits documented.</li>
+<li>Rollback, withdrawal, source correction and manual fallback rehearsed as relevant.</li>
+<li>Seven days of appropriate post-release observation and one feedback/review cycle recorded.</li>
+<li>A named owner accepts maintenance, costs, support and shutdown responsibility.</li>
+</ul>
+<h2 id="deliverables">Deliverables</h2>
+<ul>
+<li>Current/future process maps</li>
+<li>Field schema and permission register</li>
+<li>Workflow export or labelled simulation</li>
+<li>Approval and state-transition design</li>
+<li>Failure/deduplication test results</li>
+<li>Operations and rollback guide</li>
+</ul>
+<h2 id="budget-and-procurement">Budget and procurement</h2>
+<p>Use the Budget sheet to record current plan access, separate API/runtime charges, hosting/storage, media attempts, voice use and maintenance. All worksheet costs begin unpriced; none are vendor quotations. Include failed paid attempts in actual spend. Publish a dated cohort minimum-cost route before purchases.</p>
+<h2 id="handover-runbook">Handover runbook</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Required evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Start</td>
+<td>Permitted users, inputs, current version and operating steps</td>
+</tr>
+<tr>
+<td>Review</td>
+<td>Who checks facts/rights and approves exact actions or assets</td>
+</tr>
+<tr>
+<td>Failure</td>
+<td>Visible errors, bounded retry rules and manual completion route</td>
+</tr>
+<tr>
+<td>Correction</td>
+<td>How to report, pause, fix and communicate an error</td>
+</tr>
+<tr>
+<td>Maintain</td>
+<td>Sources, dependencies, service changes, renewal dates and owner</td>
+</tr>
+<tr>
+<td>Stop</td>
+<td>How to disable service or withdraw publication; retention/deletion duties</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="access-limited-educational-route">Access-limited educational route</h2>
+<p>Complete the manual workflow, diagrams, paper prototype, sample outputs and test expectations. Mark live API, media, permission and deployment behaviours <strong>not assessed</strong>. This can meet academic reasoning outcomes but cannot earn a production-release designation.</p>
+<h2 id="assessment">Assessment</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Maximum points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Useful validated workflow</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Enforced exact-action approval</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Reliable state and recovery</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Owned and bounded operation</td>
+<td>4</td>
+</tr>
+</tbody>
+</table></div>
+<p>For academic feedback use 0-4 per dimension: missing/unsafe, major gaps, partial, sound, or clear/evidenced. Provisional pass 12/16 requires remediation of every critical issue. Actual release requires the owner's separate approval and all applicable gates, regardless of score.</p>
+<h2 id="boundaries">Boundaries</h2>
+<p>Keep human approval enforced in the workflow. Do not connect real inboxes, send messages or alter business records until the owner has approved data access, tests and operating responsibilities.</p>
+<h2 id="further-reading-and-product-checks">Further reading and product checks</h2>
+<ul>
+<li><a href="https://docs.n8n.io/">n8n documentation</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">Model Context Protocol documentation</a></li>
+<li><a href="https://genai.owasp.org/">OWASP: generative AI security</a></li>
+</ul>
+<p>These are official starting points, not proof of current plan eligibility, prices or legal suitability. Recheck live pages, local policies and applicable terms before teaching or deployment. No market ranking is asserted.</p>
+<details class="instructor"><summary>Instructor answer guidance</summary><h2 id="instructor-companion-and-answer-guidance">Instructor companion and answer guidance</h2>
+<p>Keep this section for feedback after the independent attempt. The separate instructor/pilot guide includes delivery preparation and assessment calibration.</p>
+<p><strong>Expected worked result:</strong> R1 is drafted and denied. It must not be sent even if a duplicate input event arrives later. A reviewer-approved message sent just before a network timeout must be reconciled using action state before any retry. The correct result can be an escalation, not another automatic attempt.</p>
+<p><strong>1. Can the model approve its own draft?</strong></p>
+<p>No. Approval comes from an authorised human/control.</p>
+<p><strong>2. Does a retry need an action identifier?</strong></p>
+<p>Yes, or an equivalent reliable state mechanism to prevent duplicate side effects.</p>
+<p><strong>3. Does self-hosting eliminate operations work?</strong></p>
+<p>No. It adds infrastructure and maintenance responsibilities.</p>
+<p><strong>Facilitation:</strong> ask the learner to point to a source, calculation, state transition or artifact supporting their conclusion. Accept defensible alternatives with explicit assumptions. Do not reward confident wording without evidence.</p>
+<p><strong>Remediation:</strong> identify the failed criterion, explain its consequence, provide a new small input, and reassess the relevant behaviour. Record what was actually observed; do not issue professional approval from a course score.</p>
+</details></article><aside class="resource-rail"><section><p class="eyebrow">EDITABLE RESOURCES</p><h2>Take the kit with you.</h2><div class="file-list"><a class="file-link" href="../kits/project-05/slides.pptx" download><span>PowerPoint</span><b>PPTX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/guide.docx" download><span>Word guide</span><b>DOCX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/workbook.xlsx" download><span>Excel workbook</span><b>XLSX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/guide.pdf" download><span>Reader PDF</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/slides.pdf" download><span>Slide handout</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/process.svg" download><span>Process diagram</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/process.pdf" download><span>Process print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/process.excalidraw" download><span>Editable diagram</span><b>EXCALIDRAW</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/roadmap.csv" download><span>Roadmap</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/practice.csv" download><span>Practice data</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/guide.md" download><span>Source text</span><b>MD</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/architecture.svg" download><span>Reference architecture</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/architecture.pdf" download><span>Architecture print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/architecture.excalidraw" download><span>Editable architecture</span><b>EXCALIDRAW</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/design.svg" download><span>Screen / production design</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/design.pdf" download><span>Design print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/project-05/acceptance-tests.csv" download><span>Acceptance tests</span><b>CSV</b><span class="sr-only"> download</span></a></div><p class="small-note">Actual paid-service access, licensing and release approval are not included.</p></section><nav aria-label="On this page" class="on-this-page"><h2>On this page</h2><ol><li><a href="#outcomes">Outcomes</a></li><li><a href="#design-rationale">Design rationale</a></li><li><a href="#supplied-fictional-starting-brief-or-data-contract">Supplied fictional starting brief or data contract</a></li><li><a href="#worked-vertical-slice">Worked vertical slice</a></li><li><a href="#from-scratch-to-production">From scratch to production</a></li><li><a href="#architecture-and-responsibility-boundaries">Architecture and responsibility boundaries</a></li><li><a href="#screen-or-production-design">Screen or production design</a></li><li><a href="#acceptance-and-failure-tests">Acceptance and failure tests</a></li><li><a href="#release-gates">Release gates</a></li><li><a href="#deliverables">Deliverables</a></li><li><a href="#budget-and-procurement">Budget and procurement</a></li><li><a href="#handover-runbook">Handover runbook</a></li><li><a href="#access-limited-educational-route">Access-limited educational route</a></li><li><a href="#assessment">Assessment</a></li><li><a href="#boundaries">Boundaries</a></li><li><a href="#further-reading-and-product-checks">Further reading and product checks</a></li><li><a href="#instructor-companion-and-answer-guidance">Instructor companion and answer guidance</a></li></ol></nav></aside></div>
+      <section class="diagram-section"><p class="eyebrow">VISUAL REFERENCE</p><h2>Reference architecture — not a deployed service</h2><a href="../kits/project-05/architecture.svg"><img src="../kits/project-05/architecture.svg" alt="Reference architecture — not a deployed service: Approval-based operations automation" loading="lazy"></a><p class="small-note">Open at full size or download the editable diagram. Responsibilities and limits are described in the guide.</p></section>
+      <nav class="adjacent" aria-label="Continue learning"><a href="../index.html#library">← Back to the resource library</a></nav>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid">
+      <div><img src="../assets/logo-gold.png" width="220" alt="Khaled Hamad"><p>Making AI work for people.</p></div>
+      <div><p class="eyebrow on-dark">A PRACTICAL LEARNING SYSTEM</p><p>24 weeks. One professional project.<br>Evidence before confidence.</p></div>
+      <div><p>Teaching drafts · 18 November 2026</p><p>Not accreditation, a market ranking or authorisation to deploy.<br>No learner accounts or server-side progress tracking.</p></div>
+    </div></footer></body></html>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1014" viewBox="0 0 1280 1014" role="img" aria-labelledby="title description">
+<title id="title">Integrated creator delivery portal</title><desc id="description">Reference architecture • component responsibilities, not a deployed implementation. Client portal: Client: No provider secrets; project/asset UI; Application service: Server: Authenticate, authorise, validate and enforce budget; Database + storage: Server: Scoped records, asset versions and signed access; Media providers: Vendor: Higgsfield / ElevenLabs with separately approved API access; Job processor: Server: Verified callbacks, deduplication, bounded polling and truthful states; Client + operator: Human: Rights review, exact-version approval and stop decisions</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#806226"/></marker></defs>
+<rect width="1280" height="1014" fill="white"/>
+<rect x="50" y="143" width="58" height="5" fill="#CAAD6A"/>
+<path d="M380.0,266.5 L475.0,266.5" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="415.2" y="255.5" width="24.7" height="22" fill="white"/>
+<text x="427.5" y="270.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E1</text>
+<path d="M805.0,257.5 L900.0,257.5" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="840.2" y="246.5" width="24.7" height="22" fill="white"/>
+<text x="852.5" y="261.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E2</text>
+<path d="M628.0,335.0 L628.0,374.0 L1053.0,374.0 L1053.0,465.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="615.7" y="343.5" width="24.7" height="22" fill="white"/>
+<text x="628.0" y="358.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E3</text>
+<path d="M900.0,542.5 L805.0,542.5" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="840.2" y="531.5" width="24.7" height="22" fill="white"/>
+<text x="852.5" y="546.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E4</text>
+<path d="M652.0,465.0 L652.0,398.0 L1077.0,398.0 L1077.0,335.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="639.7" y="420.5" width="24.7" height="22" fill="white"/>
+<text x="652.0" y="435.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E5</text>
+<path d="M239.0,465.0 L239.0,410.0 L664.0,410.0 L664.0,335.0" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="226.7" y="426.5" width="24.7" height="22" fill="white"/>
+<text x="239.0" y="441.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E6</text>
+<path d="M475.0,248.5 L380.0,248.5" stroke="#806226" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="415.2" y="237.5" width="24.7" height="22" fill="white"/>
+<text x="427.5" y="252.5" text-anchor="middle" fill="#3D4A63" font-size="12" font-family="Segoe UI,Arial,sans-serif">E7</text>
+<rect x="50" y="180" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="475" y="180" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="900" y="180" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="900" y="465" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="475" y="465" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<rect x="50" y="465" width="330" height="155" rx="7" fill="#F3F5F8" stroke="#DDE2EA"/>
+<text x="50" y="74" fill="#182234" font-size="32" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Integrated creator delivery portal</text>
+<text x="50" y="114" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Reference architecture • component responsibilities, not a deployed implementation</text>
+<text x="68" y="223" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Client portal</text>
+<text x="68" y="251" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Client: No provider secrets; project/asset</text>
+<text x="68" y="272" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">UI</text>
+<text x="493" y="223" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Application service</text>
+<text x="493" y="251" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Server: Authenticate, authorise, validate</text>
+<text x="493" y="272" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">and enforce budget</text>
+<text x="918" y="223" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Database + storage</text>
+<text x="918" y="251" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Server: Scoped records, asset versions</text>
+<text x="918" y="272" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">and signed access</text>
+<text x="918" y="508" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Media providers</text>
+<text x="918" y="536" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Vendor: Higgsfield / ElevenLabs with</text>
+<text x="918" y="557" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">separately approved API access</text>
+<text x="493" y="508" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Job processor</text>
+<text x="493" y="536" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Server: Verified callbacks, deduplication,</text>
+<text x="493" y="557" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">bounded polling and truthful states</text>
+<text x="68" y="508" fill="#182234" font-size="21" font-weight="600" font-family="Segoe UI,Arial,sans-serif">Client + operator</text>
+<text x="68" y="536" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Human: Rights review, exact-version</text>
+<text x="68" y="557" fill="#3D4A63" font-size="16" font-weight="400" font-family="Segoe UI,Arial,sans-serif">approval and stop decisions</text>
+<text x="50" y="654" fill="#806226" font-size="14" font-weight="600" font-family="Segoe UI,Arial,sans-serif">CONNECTIONS / WHAT MOVES</text>
+<text x="50" y="689" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E1 Client portal -&gt; Application service: authorised request</text>
+<text x="670" y="689" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E2 Application service -&gt; Database + storage: scoped data</text>
+<text x="50" y="755" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E3 Application service -&gt; Media providers: approved generation job</text>
+<text x="670" y="755" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E4 Media providers -&gt; Job processor: callback / status response</text>
+<text x="50" y="821" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E5 Job processor -&gt; Database + storage: validated job state</text>
+<text x="670" y="821" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E6 Client + operator -&gt; Application service: approval / stop</text>
+<text x="50" y="887" fill="#3D4A63" font-size="14" font-weight="400" font-family="Segoe UI,Arial,sans-serif">E7 Application service -&gt; Client portal: truthful status + permitted assets</text>
+<text x="50" y="974" fill="#3D4A63" font-size="13" font-family="Segoe UI,Arial,sans-serif">TEACHING REFERENCE • HUMAN REVIEW AND REAL APPROVAL REMAIN REQUIRED</text>
+</svg>

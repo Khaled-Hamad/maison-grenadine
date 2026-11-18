@@ -1,0 +1,9 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+project-05-1,Discover,3.84,,Owner / learner / reviewer,Discover: time the existing manual process and identify request categories and exception cases.,Not started
+project-05-2,Scope,3.84,project-05-1,Owner / learner / reviewer,"Scope: select one source, one draft output and one human approval route; document minimum permissions.",Not started
+project-05-3,Prepare,5.76,project-05-2,Owner / learner / reviewer,"Prepare: create fictional requests, required field schema, stable identifiers and expected test outcomes.",Not started
+project-05-4,Build,13.44,project-05-3,Owner / learner / reviewer,"Build: configure validation, drafting, exact-action review, deduplication, bounded retries and error notifications.",Not started
+project-05-5,Evaluate,8.64,project-05-4,Owner / learner / reviewer,"Evaluate: test approvals, denials, duplicate events, missing fields, injection, revoked access, outage and cost stops.",Not started
+project-05-6,Release,3.84,project-05-5,Owner / learner / reviewer,Release: connect a limited owner-approved real input source without removing approval controls.,Not started
+project-05-7,Observe,4.8,project-05-6,Owner / learner / reviewer,"Operate: observe seven days, compare time and failures with manual work and correct issues.",Not started
+project-05-8,Hand over,3.84,project-05-7,Owner / learner / reviewer,"Hand over: document connector ownership, retention, manual recovery, budget and shutdown.",Not started

@@ -1,0 +1,13 @@
+﻿Case,Input / condition,Expected outcome,Actual evidence,Status
+Facts,Change a date in a draft,Reviewer catches mismatch before publication,,Unrun
+Missing logistics,Venue remains unconfirmed,No invented or implied confirmed location,,Unrun
+Rights,Asset has no usage record,Asset excluded until permission established,,Unrun
+Voice,Unconsented real-person voice proposed,Reject; choose permitted voice,,Unrun
+Caption,Free becomes three,Correct meaning and review against actual audio,,Unrun
+Brand,Logo distorted,Restore supplied proportions and clear space,,Unrun
+Continuity,Visual changes object between shots,Revise or replace incoherent shot,,Unrun
+Accessibility,Text unreadable on mobile,Provide legible version and checked captions,,Unrun
+Budget,Approved attempt limit reached,Stop and request explicit budget decision,,Unrun
+Approval,Edit changes approved claim,Reapproval before publishing changed version,,Unrun
+Correction,Owner reports error after publication,Owner can correct or withdraw asset,,Unrun
+Measurement,Engagement rises after release,Report observation; no unsupported causal claim,,Unrun

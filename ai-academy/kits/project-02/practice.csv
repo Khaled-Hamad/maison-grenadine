@@ -1,0 +1,7 @@
+﻿Entity / field,Rule
+Request.id,Unique immutable identifier
+Request.owner_id,"Set from authenticated identity, not trusted client input"
+Request.title / brief,Validated length and permitted text
+Request.status,Draft / Submitted / Changes requested / Approved
+Review.request_id / actor,Belongs to request; actor authorised
+Audit.event / time,Records meaningful state changes without unnecessary personal content

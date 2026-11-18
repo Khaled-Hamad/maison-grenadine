@@ -1,0 +1,5 @@
+﻿Outcome,Count,Meaning
+True positive,8,Needed review and flagged
+False positive,18,Did not need review but flagged
+False negative,2,Needed review but missed
+True negative,72,Did not need review and not flagged

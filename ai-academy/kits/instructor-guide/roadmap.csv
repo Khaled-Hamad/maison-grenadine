@@ -1,0 +1,9 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+instructor-guide-1,Discover,0.48,,Owner / learner / reviewer,Confirm audience and access,Not started
+instructor-guide-2,Scope,0.48,instructor-guide-1,Owner / learner / reviewer,Dry-run material,Not started
+instructor-guide-3,Prepare,0.72,instructor-guide-2,Owner / learner / reviewer,Teach with worked examples,Not started
+instructor-guide-4,Build,1.68,instructor-guide-3,Owner / learner / reviewer,Observe practice,Not started
+instructor-guide-5,Evaluate,1.08,instructor-guide-4,Owner / learner / reviewer,Score evidence,Not started
+instructor-guide-6,Release,0.48,instructor-guide-5,Owner / learner / reviewer,Remediate blockers,Not started
+instructor-guide-7,Observe,0.6,instructor-guide-6,Owner / learner / reviewer,Collect consented pilot feedback,Not started
+instructor-guide-8,Hand over,0.48,instructor-guide-7,Owner / learner / reviewer,Revise and maintain,Not started

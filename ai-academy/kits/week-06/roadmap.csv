@@ -1,0 +1,6 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+W06-1,Concepts,1.0,,Learner / instructor,"Read explanations, discuss a misconception and interpret the worked example.",Not started
+W06-2,Demonstration,1.0,W06-1,Learner / instructor,"Predict the result, inspect the supplied inputs, and compare with the worked answer.",Not started
+W06-3,Guided lab,2.0,W06-2,Learner / instructor,Complete the ordered lab steps and retain intermediate evidence.,Not started
+W06-4,Independent work,1.5,W06-3,Learner / instructor,"Complete the deliverables, professional transfer and self-check.",Not started
+W06-5,Reflection and feedback,0.5,W06-4,Learner / instructor,"Review the evidence, remediate blockers and record one next step.",Not started

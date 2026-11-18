@@ -1,0 +1,5 @@
+﻿Option,Fictional setup hours,Fictional monthly cost USD,Source traceability,Maintenance burden
+Manual document search,1,0,Direct human citations,Low; staff time matters
+Prompt with supplied extracts,3,20,Possible with review,Keep extracts current
+Retrieval-backed assistant,20,60,Passage references possible,"Index, access and regression checks"
+Fine-tuned model only,60,120,Not inherent,Training data and deployment

@@ -1,0 +1,9 @@
+# Keep published resource checksums stable across checkout platforms.
+ai-academy/kits/** -text
+ai-academy/**/*.csv -text whitespace=cr-at-eol
+ai-academy/**/*.pdf binary
+ai-academy/**/*.pptx binary
+ai-academy/**/*.docx binary
+ai-academy/**/*.xlsx binary
+ai-academy/**/*.zip binary
+ai-academy/**/*.png binary

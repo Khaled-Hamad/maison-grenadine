@@ -1,0 +1,9 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+project-04-1,Discover,3.84,,Owner / learner / reviewer,"Discover: define readers, questions, harm, source permissions and the manual-search baseline.",Not started
+project-04-2,Scope,3.84,project-04-1,Owner / learner / reviewer,"Scope: choose a small corpus, answer boundaries, access rules and freshness requirements.",Not started
+project-04-3,Prepare,5.76,project-04-2,Owner / learner / reviewer,"Prepare: clean/extract documents, inspect tables, attach metadata and declare 20 evaluation questions.",Not started
+project-04-4,Build,13.44,project-04-3,Owner / learner / reviewer,Build: configure a grounded workspace or implement retrieval with visible passage references.,Not started
+project-04-5,Evaluate,8.64,project-04-4,Owner / learner / reviewer,"Evaluate: inspect retrieval and answer support separately, including conflicts, unknowns and forbidden access.",Not started
+project-04-6,Release,3.84,project-04-5,Owner / learner / reviewer,Release: obtain corpus and application approval and expose only to the named audience.,Not started
+project-04-7,Observe,4.8,project-04-6,Owner / learner / reviewer,"Operate: replace one source, refresh retrieval and rerun affected tests; observe permitted feedback seven days.",Not started
+project-04-8,Hand over,3.84,project-04-7,Owner / learner / reviewer,"Hand over: document ownership, update/deletion process, access changes, costs and shutdown.",Not started

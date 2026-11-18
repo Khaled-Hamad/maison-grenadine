@@ -1,0 +1,9 @@
+﻿ID,Task,Planned hours,Depends on,Owner,Evidence / output,Status
+project-06-1,Discover,2.88,,Owner / learner / reviewer,"Discover: interview the consenting client and map brief, production, revision and delivery responsibilities.",Not started
+project-06-2,Scope,2.88,project-06-1,Owner / learner / reviewer,"Scope: agree one organisation, two roles, one campaign, asset/version model, exclusions and spending ceiling.",Not started
+project-06-3,Prepare,4.32,project-06-2,Owner / learner / reviewer,"Prepare: sketch screens, define permissions, source/rights registers, job states and acceptance tests.",Not started
+project-06-4,Build,10.08,project-06-3,Owner / learner / reviewer,Build: create the Lovable portal and manual asset review loop; use a controlled GitHub/Claude Code development handoff.,Not started
+project-06-5,Evaluate,6.48,project-06-4,Owner / learner / reviewer,"Integrate and evaluate: add one authorised provider API at a time behind server endpoints, then test jobs, callbacks, access and failures.",Not started
+project-06-6,Release,2.88,project-06-5,Owner / learner / reviewer,"Release: rehearse rollback/restore, resolve blockers and invite one approved real pilot client.",Not started
+project-06-7,Observe,3.6,project-06-6,Owner / learner / reviewer,Operate: complete a real review/revision cycle and seven days of appropriate monitoring and spend review.,Not started
+project-06-8,Hand over,2.88,project-06-7,Owner / learner / reviewer,"Hand over: deliver code, configuration instructions, creative source files, costs, support ownership and shutdown plan.",Not started

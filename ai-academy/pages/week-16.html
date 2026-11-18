@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en-GB" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Build an evaluation and risk register that can block an unsafe release."><meta name="color-scheme" content="light">
+<title>Evaluation, security and governance | AI in practice</title><link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script></head><body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header"><div class="container header-row">
+      <a class="brand" href="../index.html" aria-label="Khaled Hamad AI programme home"><img src="../assets/logo-navy.png" width="216" alt="Khaled Hamad"></a>
+      <span class="brand-divider" aria-hidden="true"></span><span class="brand-label">AI / PROFESSIONAL PRACTICE</span>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="../index.html#curriculum">Course map</a><a href="../index.html#projects">Projects</a>
+        <a href="../index.html#process">The process</a><a href="../index.html#library">Library</a>
+      </nav>
+    </div></header>
+    <main id="main" tabindex="-1" class="detail-main container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Programme</a><span aria-hidden="true">/</span><span>Week 16</span></nav>
+      <div class="print-brand"><img src="../assets/logo-navy.png" width="210" alt="Khaled Hamad"></div>
+      <section class="detail-hero"><p class="eyebrow">WEEK 16 / TEACHING DRAFT</p><h1>Evaluation, security and governance</h1><p class="hero-lead">Build an evaluation and risk register that can block an unsafe release.</p><div class="actions"><a class="button primary" href="../kits/week-16/week-16-kit.zip" download>Download the complete kit ↓</a><button class="review-button large-review" data-review="week-16" aria-pressed="false">Mark reviewed</button><button class="button secondary print-button" type="button">Print / save page as PDF</button></div><p id="storage-notice" class="storage-notice" role="status"></p></section>
+      <div class="detail-layout"><article class="reading">
+<p><strong>Status:</strong> teaching draft, not learner-tested. Fictional data and worked examples are labelled throughout. No production service is deployed by completing this lesson.</p>
+<p><strong>Time:</strong> 6 hours (360 learning minutes), with breaks additional. <strong>Prerequisites:</strong> the earlier course phases; review unfamiliar terms with the instructor.</p>
+<p><strong>Materials:</strong> this guide, the supplied workbook and diagram, a document editor or paper, and optionally an approved AI assistant. Do not buy a subscription for a lab without checking the dated cohort access plan.</p>
+<h2 id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Create normal, edge and adversarial tests.</li>
+<li>Separate quality scores from mandatory safety gates.</li>
+<li>Assign risks, mitigations and escalation ownership.</li>
+</ul>
+<h2 id="six-hour-plan">Six-hour plan</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Minutes</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Concepts</td>
+<td>60</td>
+<td>Read explanations, discuss a misconception and interpret the worked example.</td>
+</tr>
+<tr>
+<td>Demonstration</td>
+<td>60</td>
+<td>Predict the result, inspect the supplied inputs, and compare with the worked answer.</td>
+</tr>
+<tr>
+<td>Guided lab</td>
+<td>120</td>
+<td>Complete the ordered lab steps and retain intermediate evidence.</td>
+</tr>
+<tr>
+<td>Independent work</td>
+<td>90</td>
+<td>Complete the deliverables, professional transfer and self-check.</td>
+</tr>
+<tr>
+<td>Reflection and feedback</td>
+<td>30</td>
+<td>Review the evidence, remediate blockers and record one next step.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="start-with-a-prediction">Start with a prediction</h2>
+<p>Before reading the worked solution, write what you expect to happen, what could be wrong, and what evidence you would need to trust the result. Keep the note for your final reflection.</p>
+<h2 id="learner-explanations">Learner explanations</h2>
+<h3 id="evaluate-the-system">Evaluate the system</h3>
+<p>The deployed behaviour includes prompts, retrieval, model, tools, interface and human process. Test representative tasks and relevant subgroups without using sensitive attributes carelessly. Keep a development set and unused evaluation examples. When a test influences a fix, it has become development evidence.</p>
+<h3 id="instructions-are-not-isolation">Instructions are not isolation</h3>
+<p>Prompt injection occurs when untrusted content tries to redirect the system. Defend with bounded tools, source treatment, authorisation, output validation and human review as appropriate. Do not rely on a single sentence telling a model to ignore malicious text. Use synthetic attack strings, never real secrets.</p>
+<h3 id="governance-is-operational">Governance is operational</h3>
+<p>A risk register needs an owner and a practical response, not only a colour. Record what can fail, who is affected, how it is detected, what reduces it and what remains. Identify who can pause the service, correct an answer, contact affected users and approve a restart.</p>
+<h2 id="glossary">Glossary</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Plain-language meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Evaluation set</td>
+<td>Representative cases with defined expected behaviours and evidence.</td>
+</tr>
+<tr>
+<td>Regression</td>
+<td>A previously working behaviour that breaks after a change.</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>The roles, rules and evidence used to control decisions over a system's life.</td>
+</tr>
+<tr>
+<td>Release gate</td>
+<td>A condition that must be met before an authorised release decision.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="supplied-practice-material">Supplied practice material</h2>
+<p><strong>All records and outcomes in this table are synthetic teaching examples, not observations about a real vendor, person or organisation.</strong></p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Synthetic input</th>
+<th>Expected behaviour</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Normal</td>
+<td>Ask the workshop price</td>
+<td>Source-backed free-price answer</td>
+</tr>
+<tr>
+<td>Missing source</td>
+<td>Ask about parking</td>
+<td>Unknown; no invention</td>
+</tr>
+<tr>
+<td>Stale source</td>
+<td>Old venue conflicts with update</td>
+<td>Use applicable current source</td>
+</tr>
+<tr>
+<td>Injection</td>
+<td>Document asks to bypass review</td>
+<td>No policy or permission change</td>
+</tr>
+<tr>
+<td>Cross-account</td>
+<td>User A requests User B's draft</td>
+<td>Backend denies access</td>
+</tr>
+<tr>
+<td>Secret request</td>
+<td>Ask for dummy internal key</td>
+<td>No secret disclosure</td>
+</tr>
+<tr>
+<td>Rejection</td>
+<td>Human denies send</td>
+<td>No external action</td>
+</tr>
+<tr>
+<td>Duplicate</td>
+<td>Same event arrives twice</td>
+<td>No duplicate side effect</td>
+</tr>
+<tr>
+<td>Provider error</td>
+<td>Generation fails</td>
+<td>Visible failure and recovery</td>
+</tr>
+<tr>
+<td>Budget</td>
+<td>Approved limit reached</td>
+<td>Stop further paid requests</td>
+</tr>
+<tr>
+<td>Accessibility</td>
+<td>Keyboard-only operation</td>
+<td>Reach and operate key controls</td>
+</tr>
+<tr>
+<td>Correction</td>
+<td>Owner reports wrong fact</td>
+<td>Pause/correct and record review</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="worked-example">Worked example</h2>
+<p>A system passing 11/12 tests must still be held if its failure exposes another user's data. Quality aggregates do not cancel a mandatory gate. Mark each test unrun, pass or fail with evidence; an empty test cell is not a pass. A dozen cases are useful design evidence, not proof of production safety.</p>
+<h2 id="guided-lab">Guided lab</h2>
+<ol>
+<li>Choose a workflow and predeclare expected outcomes for all 12 tests.</li>
+<li>Run tests in a safe staging environment or simulate documented controls.</li>
+<li>Record actual outputs, evidence and unresolved limitations.</li>
+<li>Assign an owner, mitigation and response to at least four risks.</li>
+<li>Separate mandatory blockers from ordinary improvement items.</li>
+<li>Write a release recommendation identifying the authorised decision-maker.</li>
+</ol>
+<h2 id="what-to-submit">What to submit</h2>
+<ul>
+<li>Evaluation matrix</li>
+<li>Risk register</li>
+<li>Evidence-linked failure report</li>
+<li>Release recommendation</li>
+</ul>
+<h2 id="offline-and-access-limited-route">Offline and access-limited route</h2>
+<p>Use the supplied practice table and worked example rather than a live service. Complete the same reasoning, calculations, state traces or manual artifact. Ask a peer to challenge the result. Label the work <strong>manual/simulated</strong> and identify which live-tool, audio, integration, permissions or production behaviours have not been tested. Do not claim a simulated control was enforced by real software.</p>
+<h2 id="professional-transfer">Professional transfer</h2>
+<p>Choose your own professional context and write one safe adaptation: an engineering document review, a public health-education task, a campaign brief, or an art/design workflow. Name the authorised reviewer, permitted inputs and one task outside scope. Use invented data unless you have explicit permission; do not make a second full project this week.</p>
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>Can an average score compensate for an access leak?</li>
+<li>Are simulated controls production-tested controls?</li>
+<li>What changes after a held-out test drives a fix?</li>
+</ol>
+<h2 id="assessment">Assessment</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable teaching data"><table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Maximum points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Construct relevant cases</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Record evidence honestly</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Use non-negotiable gates</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Assign practical ownership</td>
+<td>4</td>
+</tr>
+</tbody>
+</table></div>
+<p>Provisional pass: <strong>12/16</strong> with no unresolved safety-critical issue. Score each dimension 0 (missing/unsafe), 1 (major gaps), 2 (partial), 3 (sound with minor omissions), or 4 (clear and evidenced). A learner may pass by honestly diagnosing a failed workflow; this is not production authorisation.</p>
+<h2 id="safety-and-required-remediation">Safety and required remediation</h2>
+<p>Do not attack a live service or use actual secrets. Use permitted staging accounts and dummy records; an instructor cannot grant professional or legal authority they do not hold.</p>
+<p>Correct any unauthorised data use, fabricated evidence, hidden failure, unapproved consequential action or false claim of production testing before passing. Keep the actual release state explicit.</p>
+<h2 id="reflection">Reflection</h2>
+<p>What changed after you checked the evidence? Which failure would matter most in your profession? What remains unassessed? Record one concrete improvement and one situation where you would stop.</p>
+<h2 id="further-reading-and-product-checks">Further reading and product checks</h2>
+<ul>
+<li><a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST AI Risk Management Framework</a></li>
+<li><a href="https://genai.owasp.org/">OWASP: generative AI security</a></li>
+<li><a href="https://www.w3.org/WAI/WCAG22/quickref/">W3C: WCAG quick reference</a></li>
+</ul>
+<p>These are official starting points, not proof of current plan eligibility, prices or legal suitability. Recheck live pages, local policies and applicable terms before teaching or deployment. No market ranking is asserted.</p>
+<details class="instructor"><summary>Instructor answer guidance</summary><h2 id="instructor-companion-and-answer-guidance">Instructor companion and answer guidance</h2>
+<p>Keep this section for feedback after the independent attempt. The separate instructor/pilot guide includes delivery preparation and assessment calibration.</p>
+<p><strong>Expected worked result:</strong> A system passing 11/12 tests must still be held if its failure exposes another user's data. Quality aggregates do not cancel a mandatory gate. Mark each test unrun, pass or fail with evidence; an empty test cell is not a pass. A dozen cases are useful design evidence, not proof of production safety.</p>
+<p><strong>1. Can an average score compensate for an access leak?</strong></p>
+<p>No. The mandatory gate remains blocked.</p>
+<p><strong>2. Are simulated controls production-tested controls?</strong></p>
+<p>No. Label simulation and obtain real implementation evidence before release.</p>
+<p><strong>3. What changes after a held-out test drives a fix?</strong></p>
+<p>That case becomes development data; obtain new cases for an independent claim.</p>
+<p><strong>Facilitation:</strong> ask the learner to point to a source, calculation, state transition or artifact supporting their conclusion. Accept defensible alternatives with explicit assumptions. Do not reward confident wording without evidence.</p>
+<p><strong>Remediation:</strong> identify the failed criterion, explain its consequence, provide a new small input, and reassess the relevant behaviour. Record what was actually observed; do not issue professional approval from a course score.</p>
+</details></article><aside class="resource-rail"><section><p class="eyebrow">EDITABLE RESOURCES</p><h2>Take the kit with you.</h2><div class="file-list"><a class="file-link" href="../kits/week-16/slides.pptx" download><span>PowerPoint</span><b>PPTX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/guide.docx" download><span>Word guide</span><b>DOCX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/workbook.xlsx" download><span>Excel workbook</span><b>XLSX</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/guide.pdf" download><span>Reader PDF</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/slides.pdf" download><span>Slide handout</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/process.svg" download><span>Process diagram</span><b>SVG</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/process.pdf" download><span>Process print</span><b>PDF</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/process.excalidraw" download><span>Editable diagram</span><b>EXCALIDRAW</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/roadmap.csv" download><span>Roadmap</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/practice.csv" download><span>Practice data</span><b>CSV</b><span class="sr-only"> download</span></a><a class="file-link" href="../kits/week-16/guide.md" download><span>Source text</span><b>MD</b><span class="sr-only"> download</span></a></div><p class="small-note">Actual paid-service access, licensing and release approval are not included.</p></section><nav aria-label="On this page" class="on-this-page"><h2>On this page</h2><ol><li><a href="#learning-outcomes">Learning outcomes</a></li><li><a href="#six-hour-plan">Six-hour plan</a></li><li><a href="#start-with-a-prediction">Start with a prediction</a></li><li><a href="#learner-explanations">Learner explanations</a></li><li><a href="#glossary">Glossary</a></li><li><a href="#supplied-practice-material">Supplied practice material</a></li><li><a href="#worked-example">Worked example</a></li><li><a href="#guided-lab">Guided lab</a></li><li><a href="#what-to-submit">What to submit</a></li><li><a href="#offline-and-access-limited-route">Offline and access-limited route</a></li><li><a href="#professional-transfer">Professional transfer</a></li><li><a href="#self-check">Self-check</a></li><li><a href="#assessment">Assessment</a></li><li><a href="#safety-and-required-remediation">Safety and required remediation</a></li><li><a href="#reflection">Reflection</a></li><li><a href="#further-reading-and-product-checks">Further reading and product checks</a></li><li><a href="#instructor-companion-and-answer-guidance">Instructor companion and answer guidance</a></li></ol></nav></aside></div>
+      <section class="diagram-section"><p class="eyebrow">VISUAL REFERENCE</p><h2>Concept and process map</h2><a href="../kits/week-16/process.svg"><img src="../kits/week-16/process.svg" alt="Concept and process map: Evaluation, security and governance" loading="lazy"></a><p class="small-note">Open at full size or download the editable diagram. Responsibilities and limits are described in the guide.</p></section>
+      <nav class="adjacent" aria-label="Continue learning"><a href="week-15.html">← Week 15</a><a href="../index.html#curriculum">Back to the course map</a><a href="week-17.html">Week 17 →</a></nav>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid">
+      <div><img src="../assets/logo-gold.png" width="220" alt="Khaled Hamad"><p>Making AI work for people.</p></div>
+      <div><p class="eyebrow on-dark">A PRACTICAL LEARNING SYSTEM</p><p>24 weeks. One professional project.<br>Evidence before confidence.</p></div>
+      <div><p>Teaching drafts · 18 November 2026</p><p>Not accreditation, a market ranking or authorisation to deploy.<br>No learner accounts or server-side progress tracking.</p></div>
+    </div></footer></body></html>
